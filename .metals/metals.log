@@ -1,0 +1,400 @@
+2025.11.17 00:51:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.11.17 00:51:44 WARN  no build tool detected in workspace 'C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2025.11.17 00:51:44 WARN  Build server is not auto-connectable.
+2025.11.17 00:51:44 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\JavaVersion.java
+2025.11.17 00:51:44 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:45: error: unmappable character (0xA9) for encoding UTF-8
+        {"\u00A9", "&copy;"}, // � - copyright sign
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:50: error: unmappable character (0xAE) for encoding UTF-8
+        {"\u00AE", "&reg;"}, // � - registered trademark sign
+                                ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:68: error: unmappable character (0xC0) for encoding UTF-8
+        {"\u00C0", "&Agrave;"}, // � - uppercase A, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:69: error: unmappable character (0xC1) for encoding UTF-8
+        {"\u00C1", "&Aacute;"}, // � - uppercase A, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:70: error: unmappable character (0xC2) for encoding UTF-8
+        {"\u00C2", "&Acirc;"}, // � - uppercase A, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:71: error: unmappable character (0xC3) for encoding UTF-8
+        {"\u00C3", "&Atilde;"}, // � - uppercase A, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:72: error: unmappable character (0xC4) for encoding UTF-8
+        {"\u00C4", "&Auml;"}, // � - uppercase A, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:73: error: unmappable character (0xC5) for encoding UTF-8
+        {"\u00C5", "&Aring;"}, // � - uppercase A, ring
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:74: error: unmappable character (0xC6) for encoding UTF-8
+        {"\u00C6", "&AElig;"}, // � - uppercase AE
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:75: error: unmappable character (0xC7) for encoding UTF-8
+        {"\u00C7", "&Ccedil;"}, // � - uppercase C, cedilla
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:76: error: unmappable character (0xC8) for encoding UTF-8
+        {"\u00C8", "&Egrave;"}, // � - uppercase E, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:77: error: unmappable character (0xC9) for encoding UTF-8
+        {"\u00C9", "&Eacute;"}, // � - uppercase E, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:78: error: unmappable character (0xCA) for encoding UTF-8
+        {"\u00CA", "&Ecirc;"}, // � - uppercase E, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:79: error: unmappable character (0xCB) for encoding UTF-8
+        {"\u00CB", "&Euml;"}, // � - uppercase E, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:80: error: unmappable character (0xCC) for encoding UTF-8
+        {"\u00CC", "&Igrave;"}, // � - uppercase I, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:81: error: unmappable character (0xCD) for encoding UTF-8
+        {"\u00CD", "&Iacute;"}, // � - uppercase I, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:82: error: unmappable character (0xCE) for encoding UTF-8
+        {"\u00CE", "&Icirc;"}, // � - uppercase I, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:83: error: unmappable character (0xCF) for encoding UTF-8
+        {"\u00CF", "&Iuml;"}, // � - uppercase I, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:84: error: unmappable character (0xD0) for encoding UTF-8
+        {"\u00D0", "&ETH;"}, // � - uppercase Eth, Icelandic
+                                ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:85: error: unmappable character (0xD1) for encoding UTF-8
+        {"\u00D1", "&Ntilde;"}, // � - uppercase N, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:86: error: unmappable character (0xD2) for encoding UTF-8
+        {"\u00D2", "&Ograve;"}, // � - uppercase O, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:87: error: unmappable character (0xD3) for encoding UTF-8
+        {"\u00D3", "&Oacute;"}, // � - uppercase O, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:88: error: unmappable character (0xD4) for encoding UTF-8
+        {"\u00D4", "&Ocirc;"}, // � - uppercase O, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:89: error: unmappable character (0xD5) for encoding UTF-8
+        {"\u00D5", "&Otilde;"}, // � - uppercase O, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:90: error: unmappable character (0xD6) for encoding UTF-8
+        {"\u00D6", "&Ouml;"}, // � - uppercase O, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:92: error: unmappable character (0xD8) for encoding UTF-8
+        {"\u00D8", "&Oslash;"}, // � - uppercase O, slash
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:93: error: unmappable character (0xD9) for encoding UTF-8
+        {"\u00D9", "&Ugrave;"}, // � - uppercase U, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:94: error: unmappable character (0xDA) for encoding UTF-8
+        {"\u00DA", "&Uacute;"}, // � - uppercase U, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:95: error: unmappable character (0xDB) for encoding UTF-8
+        {"\u00DB", "&Ucirc;"}, // � - uppercase U, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:96: error: unmappable character (0xDC) for encoding UTF-8
+        {"\u00DC", "&Uuml;"}, // � - uppercase U, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:97: error: unmappable character (0xDD) for encoding UTF-8
+        {"\u00DD", "&Yacute;"}, // � - uppercase Y, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:98: error: unmappable character (0xDE) for encoding UTF-8
+        {"\u00DE", "&THORN;"}, // � - uppercase THORN, Icelandic
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:99: error: unmappable character (0xDF) for encoding UTF-8
+        {"\u00DF", "&szlig;"}, // � - lowercase sharps, German
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:100: error: unmappable character (0xE0) for encoding UTF-8
+        {"\u00E0", "&agrave;"}, // � - lowercase a, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:101: error: unmappable character (0xE1) for encoding UTF-8
+        {"\u00E1", "&aacute;"}, // � - lowercase a, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:102: error: unmappable character (0xE2) for encoding UTF-8
+        {"\u00E2", "&acirc;"}, // � - lowercase a, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:103: error: unmappable character (0xE3) for encoding UTF-8
+        {"\u00E3", "&atilde;"}, // � - lowercase a, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:104: error: unmappable character (0xE4) for encoding UTF-8
+        {"\u00E4", "&auml;"}, // � - lowercase a, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:105: error: unmappable character (0xE5) for encoding UTF-8
+        {"\u00E5", "&aring;"}, // � - lowercase a, ring
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:106: error: unmappable character (0xE6) for encoding UTF-8
+        {"\u00E6", "&aelig;"}, // � - lowercase ae
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:107: error: unmappable character (0xE7) for encoding UTF-8
+        {"\u00E7", "&ccedil;"}, // � - lowercase c, cedilla
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:108: error: unmappable character (0xE8) for encoding UTF-8
+        {"\u00E8", "&egrave;"}, // � - lowercase e, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:109: error: unmappable character (0xE9) for encoding UTF-8
+        {"\u00E9", "&eacute;"}, // � - lowercase e, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:110: error: unmappable character (0xEA) for encoding UTF-8
+        {"\u00EA", "&ecirc;"}, // � - lowercase e, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:111: error: unmappable character (0xEB) for encoding UTF-8
+        {"\u00EB", "&euml;"}, // � - lowercase e, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:112: error: unmappable character (0xEC) for encoding UTF-8
+        {"\u00EC", "&igrave;"}, // � - lowercase i, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:113: error: unmappable character (0xED) for encoding UTF-8
+        {"\u00ED", "&iacute;"}, // � - lowercase i, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:114: error: unmappable character (0xEE) for encoding UTF-8
+        {"\u00EE", "&icirc;"}, // � - lowercase i, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:115: error: unmappable character (0xEF) for encoding UTF-8
+        {"\u00EF", "&iuml;"}, // � - lowercase i, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:116: error: unmappable character (0xF0) for encoding UTF-8
+        {"\u00F0", "&eth;"}, // � - lowercase eth, Icelandic
+                                ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:117: error: unmappable character (0xF1) for encoding UTF-8
+        {"\u00F1", "&ntilde;"}, // � - lowercase n, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:118: error: unmappable character (0xF2) for encoding UTF-8
+        {"\u00F2", "&ograve;"}, // � - lowercase o, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:119: error: unmappable character (0xF3) for encoding UTF-8
+        {"\u00F3", "&oacute;"}, // � - lowercase o, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:120: error: unmappable character (0xF4) for encoding UTF-8
+        {"\u00F4", "&ocirc;"}, // � - lowercase o, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:121: error: unmappable character (0xF5) for encoding UTF-8
+        {"\u00F5", "&otilde;"}, // � - lowercase o, tilde
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:122: error: unmappable character (0xF6) for encoding UTF-8
+        {"\u00F6", "&ouml;"}, // � - lowercase o, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:124: error: unmappable character (0xF8) for encoding UTF-8
+        {"\u00F8", "&oslash;"}, // � - lowercase o, slash
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:125: error: unmappable character (0xF9) for encoding UTF-8
+        {"\u00F9", "&ugrave;"}, // � - lowercase u, grave accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:126: error: unmappable character (0xFA) for encoding UTF-8
+        {"\u00FA", "&uacute;"}, // � - lowercase u, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:127: error: unmappable character (0xFB) for encoding UTF-8
+        {"\u00FB", "&ucirc;"}, // � - lowercase u, circumflex accent
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:128: error: unmappable character (0xFC) for encoding UTF-8
+        {"\u00FC", "&uuml;"}, // � - lowercase u, umlaut
+                                 ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:129: error: unmappable character (0xFD) for encoding UTF-8
+        {"\u00FD", "&yacute;"}, // � - lowercase y, acute accent
+                                   ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:130: error: unmappable character (0xFE) for encoding UTF-8
+        {"\u00FE", "&thorn;"}, // � - lowercase thorn, Icelandic
+                                  ^
+C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java:131: error: unmappable character (0xFF) for encoding UTF-8
+        {"\u00FF", "&yuml;"}, // � - lowercase y, umlaut
+                                 ^
+2025.11.17 00:54:30 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\translate\EntityArrays.java. Using fallback presentation compiler.
+Nov 17, 2025 1:23:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 17, 2025 1:24:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Nov 17, 2025 1:24:23 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.11.17 01:28:31 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java
+2025.11.17 01:28:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:32 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:28:45 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:40:34 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 01:40:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 01:42:44 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\EnumUtilsTest.java
+2025.11.17 01:42:44 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\EnumUtilsTest.java. Using fallback presentation compiler.
+2025.11.17 01:42:44 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\EnumUtilsTest.java
+2025.11.17 01:42:44 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\EnumUtilsTest.java. Using fallback presentation compiler.
+2025.11.17 01:43:11 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 01:43:11 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 01:43:11 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 01:43:11 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 01:43:11 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\math\NumberUtils.java
+2025.11.17 01:43:11 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\math\NumberUtils.java. Using fallback presentation compiler.
+2025.11.17 01:43:12 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\math\NumberUtils.java
+2025.11.17 01:43:11 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\math\NumberUtils.java. Using fallback presentation compiler.
+2025.11.17 01:43:13 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 01:43:14 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 01:50:27 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java
+2025.11.17 01:50:27 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:27 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:27 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:29 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:32 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:49 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:55 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java
+2025.11.17 01:50:55 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:55 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:56 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 01:50:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:55 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 01:50:57 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:50:57 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:51:02 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:51:02 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:51:02 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:51:03 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:51:03 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java
+2025.11.17 01:51:04 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\CompositeFormatTest.java. Using fallback presentation compiler.
+2025.11.17 01:53:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\JavaVersion.java. Using fallback presentation compiler.
+2025.11.17 02:23:03 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java
+2025.11.17 02:23:04 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/codebase/codebase/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java. Output:
+
+2025.11.17 02:23:40 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java
+2025.11.17 02:23:40 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java. Using fallback presentation compiler.
+2025.11.17 02:23:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java. Using fallback presentation compiler.
+2025.11.17 02:23:41 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/codebase/codebase/src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java. Output:
+
+2025.11.17 02:23:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java. Using fallback presentation compiler.
+2025.11.17 02:23:56 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java
+2025.11.17 02:23:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java. Using fallback presentation compiler.
+2025.11.17 02:23:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\CompositeFormat.java. Using fallback presentation compiler.
+2025.11.17 02:24:18 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\main\java\org\apache\commons\lang3\text\ExtendedMessageFormat.java. Using fallback presentation compiler.
+2025.11.17 02:24:18 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java
+2025.11.17 02:24:18 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:18 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:18 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:29 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:29 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:29 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:29 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:30 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:43 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:43 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:43 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:45 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:45 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:46 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:46 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/codebase/codebase/src/test/java/org/apache/commons/lang3/text/ExtendedMessageFormatTest.java. Output:
+
+2025.11.17 02:24:46 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java
+2025.11.17 02:24:46 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:51 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:51 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java
+2025.11.17 02:24:51 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:24:52 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase\codebase\src\test\java\org\apache\commons\lang3\text\ExtendedMessageFormatTest.java. Using fallback presentation compiler.
+2025.11.17 02:26:20 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:26:20 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/SimpleFormatFactoryTest.java. Output:
+
+2025.11.17 02:26:22 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:26:22 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:27:05 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:27:05 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:05 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:05 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:09 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:10 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:33 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:27:33 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:37 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:37 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:37 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:40 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:40 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:41 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:42 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:27:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:42 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java
+2025.11.17 02:27:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:56 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java
+2025.11.17 02:27:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:56 INFO  no build target found for c:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:56 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:57 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:57 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java
+2025.11.17 02:27:57 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:57 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:58 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:27:59 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+Nov 17, 2025 2:29:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 295
+2025.11.17 02:29:27 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:31 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:32 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:32 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:33 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:33 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java
+2025.11.17 02:29:33 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:34 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+Nov 17, 2025 2:29:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 340
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:35 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:37 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java
+2025.11.17 02:29:36 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/tests/SimpleFormatFactoryTest.java. Output:
+
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:36 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:37 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:37 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/tests/SimpleFormatFactoryTest.java. Output:
+
+2025.11.17 02:29:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:38 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/tests/SimpleFormatFactoryTest.java. Output:
+
+2025.11.17 02:29:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:39 WARN  Running javac-semanticdb failed for file:///C:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/tests/SimpleFormatFactoryTest.java. Output:
+
+2025.11.17 02:29:38 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:39 WARN  no build target for: C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java
+2025.11.17 02:29:39 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+2025.11.17 02:29:42 INFO  no build target found for C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\tests\SimpleFormatFactoryTest.java. Using fallback presentation compiler.
+Nov 17, 2025 2:43:26 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
