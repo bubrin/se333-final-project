@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: CompositeFormatEquivalenceTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in CompositeFormatEquivalenceTest
-testParseableInputClasses  Time elapsed: 0.001 s  <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in CompositeFormatEquivalenceTest
+testParseableInputClasses  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Should not throw ParseException: Format.parseObject(String) failed
 	at CompositeFormatEquivalenceTest.testParseableInputClasses(CompositeFormatEquivalenceTest.java:77)
 

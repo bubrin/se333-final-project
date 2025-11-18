@@ -25,15 +25,15 @@ model: "Claude Sonnet 4"
    - Use `run_maven_tests` to execute tests automatically.
    - Parse results with `parse_results`.
    - Evaluate coverage using JaCoCo reports.
-   - Minimum acceptable coverage: **80%**.
+   - Minimum acceptable coverage: **97%**.
 
 3. **Identify Coverage Gaps & Failures**:
-   - If coverage < 80% or any test fails:
+   - If coverage <97% or any test fails:
      - Identify uncovered methods, classes, or edge cases.
      - Recommend code fixes or enhancements.
 
 4. **Generate Specification-Based Tests**:
-   - If coverage >= 80% but edge cases remain untested, generate additional tests using:
+   - If coverage >= 97% but edge cases remain untested, generate additional tests using:
      - `generate_boundary_tests` for boundary value analysis.
      - `generate_equivalence_class_tests` for equivalence classes.
      - `generate_decision_table_tests` for decision table-based testing.
@@ -44,7 +44,7 @@ model: "Claude Sonnet 4"
      1. Generate tests → 2. Run tests → 3. Parse results → 4. Improve tests.
    - Continue until:
      - All tests pass.
-     - Coverage meets or exceeds 80%.
+     - Coverage meets or exceeds 97%.
      - Specification-based edge cases are fully tested.
 
 6. **Handle Failed Tests & Bugs**:
@@ -71,7 +71,7 @@ model: "Claude Sonnet 4"
    - Use logs to ensure iterative improvement is effective.
 
 9. **Goal**:
-   - Achieve **≥80% coverage**.
+   - Achieve **≥97% coverage**.
    - No failing tests remain.
    - All boundary, equivalence, decision table, and contract-based tests are generated and verified.
 

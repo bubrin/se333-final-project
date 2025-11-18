@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: ExtendedMessageFormatBoundaryTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in ExtendedMessageFormatBoundaryTest
+testNullArgumentsBoundary  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at ExtendedMessageFormatBoundaryTest.testNullArgumentsBoundary(ExtendedMessageFormatBoundaryTest.java:141)
+
+testNullPatternBoundary  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.NullPointerException>
+	at ExtendedMessageFormatBoundaryTest.testNullPatternBoundary(ExtendedMessageFormatBoundaryTest.java:12)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "pattern" is null
+	at ExtendedMessageFormatBoundaryTest.lambda$testNullPatternBoundary$0(ExtendedMessageFormatBoundaryTest.java:13)
+	at ExtendedMessageFormatBoundaryTest.testNullPatternBoundary(ExtendedMessageFormatBoundaryTest.java:12)
+
+testApplyPatternBoundary  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.NullPointerException>
+	at ExtendedMessageFormatBoundaryTest.testApplyPatternBoundary(ExtendedMessageFormatBoundaryTest.java:192)
+Caused by: java.lang.NullPointerException: Cannot invoke "String.length()" because "pattern" is null
+	at ExtendedMessageFormatBoundaryTest.lambda$testApplyPatternBoundary$6(ExtendedMessageFormatBoundaryTest.java:193)
+	at ExtendedMessageFormatBoundaryTest.testApplyPatternBoundary(ExtendedMessageFormatBoundaryTest.java:192)
+
+testInvalidPatternBoundaries  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalArgumentException: unknown format type: invalid
+	at ExtendedMessageFormatBoundaryTest.testInvalidPatternBoundaries(ExtendedMessageFormatBoundaryTest.java:173)
+

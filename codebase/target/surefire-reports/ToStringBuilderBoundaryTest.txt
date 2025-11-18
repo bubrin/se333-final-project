@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ToStringBuilderBoundaryTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in ToStringBuilderBoundaryTest
+testNullObjectBoundary  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at ToStringBuilderBoundaryTest.testNullObjectBoundary(ToStringBuilderBoundaryTest.java:18)
+

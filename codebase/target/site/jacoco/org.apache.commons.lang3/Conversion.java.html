@@ -832,8 +832,8 @@ import java.util.UUID;
 <span class="pc bpc" id="L832" title="3 of 6 branches missed.">        if ((src.length == 0 &amp;&amp; srcPos == 0) || 0 == nBytes) {</span>
 <span class="fc" id="L833">            return dstInit;</span>
         }
-<span class="pc bpc" id="L835" title="1 of 2 branches missed.">        if ((nBytes - 1) * 8 + dstPos &gt;= 32) {</span>
-<span class="nc" id="L836">            throw new IllegalArgumentException(</span>
+<span class="fc bfc" id="L835" title="All 2 branches covered.">        if ((nBytes - 1) * 8 + dstPos &gt;= 32) {</span>
+<span class="fc" id="L836">            throw new IllegalArgumentException(</span>
                 &quot;(nBytes-1)*8+dstPos is greather or equal to than 32&quot;);
         }
 <span class="fc" id="L839">        int out = dstInit;</span>

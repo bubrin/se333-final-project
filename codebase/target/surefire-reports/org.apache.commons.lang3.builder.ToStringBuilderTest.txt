@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.lang3.builder.ToStringBuilderTest
 -------------------------------------------------------------------------------
-Tests run: 74, Failures: 31, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in org.apache.commons.lang3.builder.ToStringBuilderTest
+Tests run: 74, Failures: 31, Errors: 0, Skipped: 0, Time elapsed: 0.035 s <<< FAILURE! - in org.apache.commons.lang3.builder.ToStringBuilderTest
 test_setUpToClass_valid  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: 
 Multiple Failures (2 failures)
@@ -44,7 +44,7 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testShortArrayArray  Time elapsed: 0.001 s  <<< FAILURE!
+testShortArrayArray  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -59,7 +59,7 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testInt  Time elapsed: 0.001 s  <<< FAILURE!
+testInt  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -69,7 +69,7 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testReflectionArrayCycle  Time elapsed: 0.001 s  <<< FAILURE!
+testReflectionArrayCycle  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -79,7 +79,7 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testBlank  Time elapsed: 0.001 s  <<< FAILURE!
+testBlank  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -89,7 +89,7 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testShort  Time elapsed: 0 s  <<< FAILURE!
+testShort  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -99,22 +99,22 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testByte  Time elapsed: 0 s  <<< FAILURE!
+testByte  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testChar  Time elapsed: 0.001 s  <<< FAILURE!
+testChar  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testLong  Time elapsed: 0 s  <<< FAILURE!
+testLong  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testReflectionFloatArray  Time elapsed: 0 s  <<< FAILURE!
+testReflectionFloatArray  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
@@ -135,12 +135,12 @@ java.lang.AssertionError: Expected null, actual: {true=null} expected null, but 
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testReflectionDoubleArrayArray  Time elapsed: 0 s  <<< FAILURE!
+testReflectionDoubleArrayArray  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testReflectionInteger  Time elapsed: 0 s  <<< FAILURE!
+testReflectionInteger  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: 
 Multiple Failures (2 failures)
 	java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not "opens java.lang" to unnamed module @61f8bee4
@@ -157,7 +157,7 @@ java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)
 
-testReflectionFloatArrayArray  Time elapsed: 0 s  <<< FAILURE!
+testReflectionFloatArrayArray  Time elapsed: 0.002 s  <<< FAILURE!
 java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:<{A=null}>
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)
 	at org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)

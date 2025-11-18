@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.lang3.text.ExtendedMessageFormatTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in org.apache.commons.lang3.text.ExtendedMessageFormatTest
-testBuiltInDateTimeFormat  Time elapsed: 0.07 s  <<< ERROR!
+Tests run: 8, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in org.apache.commons.lang3.text.ExtendedMessageFormatTest
+testBuiltInDateTimeFormat  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:356)
@@ -10,14 +10,14 @@ java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVers
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:315)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.testBuiltInDateTimeFormat(ExtendedMessageFormatTest.java:211)
 
-testOverriddenBuiltinFormat  Time elapsed: 0.001 s  <<< ERROR!
+testOverriddenBuiltinFormat  Time elapsed: 0.002 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:356)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:326)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.testOverriddenBuiltinFormat(ExtendedMessageFormatTest.java:234)
 
-testBuiltInChoiceFormat  Time elapsed: 0.003 s  <<< ERROR!
+testBuiltInChoiceFormat  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:356)
@@ -25,17 +25,17 @@ java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVers
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:315)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.testBuiltInChoiceFormat(ExtendedMessageFormatTest.java:192)
 
-testExtendedFormats  Time elapsed: 0.001 s  <<< ERROR!
+testExtendedFormats  Time elapsed: 0 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.testExtendedFormats(ExtendedMessageFormatTest.java:64)
 
-testExtendedAndBuiltInFormats  Time elapsed: 0.011 s  <<< ERROR!
+testExtendedAndBuiltInFormats  Time elapsed: 0.018 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.testExtendedAndBuiltInFormats(ExtendedMessageFormatTest.java:121)
 
-testBuiltInNumberFormat  Time elapsed: 0.002 s  <<< ERROR!
+testBuiltInNumberFormat  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)
 	at org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat(ExtendedMessageFormatTest.java:356)
