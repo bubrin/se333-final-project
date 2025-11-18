@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="org.apache.commons.lang3.text.CompositeFormatTest" time="0.053" errors="0" skipped="0">
+<testsuite tests="16" failures="0" name="org.apache.commons.lang3.text.CompositeFormatTest" time="0.048" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -30,7 +30,7 @@
     <property name="classworlds.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp437"/>
-    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.8_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\.venv/Scripts;c:\Users\sofid\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\sofid\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Amazon Corretto\jdk21.0.8_9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files\Graphviz\bin;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\sbt\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\sofid\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\sofid\AppData\Local\Programs\Python\Python312\;C:\Users\sofid\AppData\Local\Programs\Python\Launcher\;C:\Users\sofid\AppData\Local\Microsoft\WindowsApps;C:\Users\sofid\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sofid\AppData\Roaming\npm;c:\Users\sofid\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;c:\Users\sofid\.vscode\extensions\ms-python.debugpy-2025.16.0-win32-x64\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk21.0.8_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\sofid\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\sofid\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Amazon Corretto\jdk21.0.8_9\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files\Graphviz\bin;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\sbt\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\sofid\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\sofid\AppData\Local\Programs\Python\Python312\;C:\Users\sofid\AppData\Local\Programs\Python\Launcher\;C:\Users\sofid\AppData\Local\Microsoft\WindowsApps;C:\Users\sofid\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sofid\AppData\Roaming\npm;c:\Users\sofid\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;c:\Users\sofid\.vscode\extensions\ms-python.debugpy-2025.16.0-win32-x64\bundled\scripts\noConfigScripts;."/>
     <property name="maven.conf" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="65.0"/>
@@ -63,13 +63,20 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testParseObject" time="0.05"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testDirectMethodCalls" time="0.038"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testFieldPositionHandling" time="0.003"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testInheritanceFromFormat" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testParseObject" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testGetFormatter" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testUsage" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testReformat" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testUsage" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testNullInputHandling" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testReformatActuallyUsesClassMethods" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testReformat" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testActualParseDelegation" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testCompositeFormat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testNullHandling" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testActualFormatDelegation" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testFormat" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testGetParser" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testConstructor" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testConstructorParameterStorage" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.CompositeFormatTest" name="testReformatWithParseException" time="0.002"/>
 </testsuite>

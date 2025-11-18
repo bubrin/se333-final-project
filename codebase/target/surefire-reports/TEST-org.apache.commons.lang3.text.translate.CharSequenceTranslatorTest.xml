@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="19" failures="0" name="org.apache.commons.lang3.text.FormattableUtilsTest" time="0.021" errors="0" skipped="0">
+<testsuite tests="21" failures="0" name="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" time="0.025" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -14,7 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="FormattableUtilsTest"/>
+    <property name="test" value="**/text/translate/*Test"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=FormattableUtilsTest"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=**/text/translate/*Test"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk21.0.8_9"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,23 +63,25 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testZeroPrecision" time="0.014"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testDefaultAppend" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testSingleCharacter" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testLongString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharacter" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharAndEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToString" time="0.003"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEmptyEllipsis" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testIllegalEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEllipsisMaxLength" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testMaxPrecisionWithEllipsis" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEllipsisTooLongForPrecision" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testZeroWidth" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEmptyString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToStringWithComplexFormattable" time="0.002"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testNullEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEllipsisEqualToPrecision" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testConstructor" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testHexUnicodeCodepoints" time="0.004"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testWithSingleTranslator" time="0.016"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testLongString" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testWithMultipleTranslators" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateWithWriterBasic" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringMultipleOccurrences" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateWithWriterIOException" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringWithNullInput" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testWithNoTranslators" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateWithWriterNullInput" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringWithIOException" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringNoMatch" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateWithWriterNullWriter" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testHexUpperCase" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testComplexTranslationScenario" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringWithEmptyInput" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testTranslateStringBasic" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testHexNegativeNumbers" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testUnicodeHandling" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testHexLargeNumbers" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.translate.CharSequenceTranslatorTest" name="testHexBasicNumbers" time="0.001"/>
 </testsuite>

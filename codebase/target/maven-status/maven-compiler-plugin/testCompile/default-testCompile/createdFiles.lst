@@ -21,6 +21,7 @@ org\apache\commons\lang3\text\StrBuilderAppendInsertTest$9.class
 org\apache\commons\lang3\tuple\TripleTest.class
 org\apache\commons\lang3\builder\ToStringStyleTest$Person.class
 org\apache\commons\lang3\concurrent\AtomicSafeInitializerTest$AtomicSafeInitializerTestImpl.class
+org\apache\commons\lang3\text\CompositeFormatTest$3.class
 org\apache\commons\lang3\CharUtilsTest.class
 org\apache\commons\lang3\exception\AbstractExceptionContextTest.class
 org\apache\commons\lang3\text\translate\EntityArraysTest.class
@@ -201,9 +202,9 @@ org\apache\commons\lang3\text\StrBuilderAppendInsertTest$12.class
 org\apache\commons\lang3\time\DurationFormatUtilsTest.class
 org\apache\commons\lang3\builder\EqualsBuilderTest$TestTTSubObject.class
 org\apache\commons\lang3\ClassUtilsTest$7.class
+org\apache\commons\lang3\text\CompositeFormatTest$6.class
 org\apache\commons\lang3\tuple\MutablePairTest.class
 org\apache\commons\lang3\builder\HashCodeBuilderTest$ReflectionTestCycleA.class
-org\apache\commons\lang3\text\FormattableUtilsTest$1.class
 org\apache\commons\lang3\concurrent\CallableBackgroundInitializerTest.class
 org\apache\commons\lang3\ClassUtilsTest$IC.class
 org\apache\commons\lang3\builder\HashCodeBuilderTest$TestObject.class
@@ -221,7 +222,6 @@ org\apache\commons\lang3\SerializationUtilsTest.class
 org\apache\commons\lang3\builder\ShortPrefixToStringStyleTest.class
 org\apache\commons\lang3\text\ExtendedMessageFormatTest$OverrideShortDateFormatFactory.class
 org\apache\commons\lang3\reflect\AAClass$BBClass.class
-org\apache\commons\lang3\text\FormattableUtilsTest$2.class
 org\apache\commons\lang3\reflect\FieldUtilsTest.class
 org\apache\commons\lang3\math\FractionTest.class
 org\apache\commons\lang3\ClassUtilsTest$2Named.class
@@ -277,6 +277,7 @@ org\apache\commons\lang3\reflect\AAClass.class
 org\apache\commons\lang3\mutable\MutableBooleanTest.class
 org\apache\commons\lang3\time\DateUtilsRoundingTest.class
 org\apache\commons\lang3\BooleanUtilsTest.class
+org\apache\commons\lang3\text\CompositeFormatTest$4.class
 org\apache\commons\lang3\AnnotationUtilsTest$Stooge.class
 org\apache\commons\lang3\reflect\testbed\PubliclyShadowedChild.class
 org\apache\commons\lang3\text\StrBuilderAppendInsertTest$6.class
@@ -295,6 +296,7 @@ org\apache\commons\lang3\concurrent\AtomicInitializerTest.class
 org\apache\commons\lang3\reflect\AClass$DClass.class
 org\apache\commons\lang3\concurrent\BasicThreadFactoryTest.class
 org\apache\commons\lang3\builder\MultiLineToStringStyleTest.class
+org\apache\commons\lang3\text\CompositeFormatTest$5.class
 org\apache\commons\lang3\reflect\AClass.class
 org\apache\commons\lang3\event\EventUtilsTest$1.class
 org\apache\commons\lang3\CharRangeTest.class

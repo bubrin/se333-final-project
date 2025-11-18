@@ -37,9 +37,9 @@ public class AggregateTranslator extends CharSequenceTranslator {
      *
      * @param translators CharSequenceTranslator array to aggregate
      */
-<span class="nc" id="L40">    public AggregateTranslator(final CharSequenceTranslator... translators) {</span>
-<span class="nc" id="L41">        this.translators = ArrayUtils.clone(translators);</span>
-<span class="nc" id="L42">    }</span>
+<span class="fc" id="L40">    public AggregateTranslator(final CharSequenceTranslator... translators) {</span>
+<span class="fc" id="L41">        this.translators = ArrayUtils.clone(translators);</span>
+<span class="fc" id="L42">    }</span>
 
     /**
      * The first translator to consume codepoints from the input is the 'winner'. 
@@ -48,14 +48,14 @@ public class AggregateTranslator extends CharSequenceTranslator {
      */
     @Override
     public int translate(final CharSequence input, final int index, final Writer out) throws IOException {
-<span class="nc bnc" id="L51" title="All 2 branches missed.">        for (final CharSequenceTranslator translator : translators) {</span>
-<span class="nc" id="L52">            final int consumed = translator.translate(input, index, out);</span>
-<span class="nc bnc" id="L53" title="All 2 branches missed.">            if(consumed != 0) {</span>
-<span class="nc" id="L54">                return consumed;</span>
+<span class="fc bfc" id="L51" title="All 2 branches covered.">        for (final CharSequenceTranslator translator : translators) {</span>
+<span class="fc" id="L52">            final int consumed = translator.translate(input, index, out);</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">            if(consumed != 0) {</span>
+<span class="fc" id="L54">                return consumed;</span>
             }
         }
-<span class="nc" id="L57">        return 0;</span>
+<span class="fc" id="L57">        return 0;</span>
     }
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

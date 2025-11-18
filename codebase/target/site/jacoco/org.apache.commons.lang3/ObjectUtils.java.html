@@ -60,7 +60,7 @@ public class ObjectUtils {
      *
      * &lt;p&gt;This instance is Serializable.&lt;/p&gt;
      */
-<span class="fc" id="L63">    public static final Null NULL = new Null();</span>
+<span class="nc" id="L63">    public static final Null NULL = new Null();</span>
 
     /**
      * &lt;p&gt;{@code ObjectUtils} instances should NOT be constructed in
@@ -93,7 +93,7 @@ public class ObjectUtils {
      * @return {@code object} if it is not {@code null}, defaultValue otherwise
      */
     public static &lt;T&gt; T defaultIfNull(final T object, final T defaultValue) {
-<span class="fc bfc" id="L96" title="All 2 branches covered.">        return object != null ? object : defaultValue;</span>
+<span class="nc bnc" id="L96" title="All 2 branches missed.">        return object != null ? object : defaultValue;</span>
     }
 
     /**
@@ -669,8 +669,8 @@ public class ObjectUtils {
          * Restricted constructor - singleton.
          */
         Null() {
-<span class="fc" id="L672">            super();</span>
-<span class="fc" id="L673">        }</span>
+<span class="nc" id="L672">            super();</span>
+<span class="nc" id="L673">        }</span>
 
         /**
          * &lt;p&gt;Ensure singleton.&lt;/p&gt;
@@ -921,4 +921,4 @@ public class ObjectUtils {
 <span class="nc" id="L921">    public static &lt;T&gt; T CONST(final T v) { return v; }</span>
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

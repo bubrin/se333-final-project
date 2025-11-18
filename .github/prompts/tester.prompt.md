@@ -1,28 +1,66 @@
 mode: "agent"
-tools:['generate_tests', 'generate_coverage_report', 'parse_results','recommend_improvements']
-description: "demo test prompt"
-model: 'Gpt-5 mini'
+tools:
+  - generate_tests
+  - parse_results
+  - improve_tests
+  - generate_and_improve
+  - git_status
+  - git_add_all
+  - git_commit
+  - git_push
+  - git_pull_request
+description: "Automated test generation, improvement, and Git workflow for Java Maven projects using JaCoCo coverage."
+model: "Gpt-5 mini"
 
-## Follow instructions below: ##
-1. Generate JUnit tests for Java methods using method signatures.
-2. Ensure test coverage meets predefined thresholds (e.g., 80%).
-3. Address failed tests by recommending or automatically suggesting fixes to the code.
-4. Continuously improve test coverage through multiple iterations by:
-   - Generating additional tests when coverage is insufficient.
-   - Fixing bugs or improving the code when tests fail.
-   - Re-running the tests after improvements are made.
-5. Use Maven to run the generated tests and Jacoco to measure the code coverage.
-6. Evaluate coverage: If coverage falls below the defined threshold, re-generate tests that target uncovered code (methods, classes, or edge cases).
-7. Handle failed tests:
-   - If tests fail, analyze the errors and recommend fixes for the code.
-   - If the test fails due to an uncovered edge case or method, generate new tests to target that case.
-8. Iterate until goals are met: Continue improving coverage and fixing test failures until:
-   - No test fails.
-   - Coverage exceeds the 80% threshold (or another defined threshold).
-9. Logging and Debugging:
-   - Log the results of each test iteration, including coverage percentage, test pass/fail status, and any bug fixes made.
-   - Use logs to ensure that the test generation and fix processes are working effectively and that coverage gaps are being addressed.
+## Agent Instructions ##
 
-## Coverage Thresholds
-- 80% coverage is the minimum goal for the project. If coverage falls below this, the agent must generate additional tests.
-- Edge cases: If tests fail due to missing edge cases, the agent should target those in the next iteration.
+1. **Generate JUnit Tests**:
+   - Use `generate_tests` or `generate_and_improve` to create test stubs for all public methods in Java classes.
+   - Ensure initial tests cover method signatures and key behaviors.
+
+2. **Run Tests & Evaluate Coverage**:
+   - Use Maven to execute tests.
+   - Parse results with `parse_results`.
+   - Evaluate coverage using JaCoCo reports.
+   - Minimum acceptable coverage: **80%**.
+
+3. **Identify Coverage Gaps & Failures**:
+   - If coverage < 80% or any test fails:
+     - Identify uncovered methods, classes, or edge cases.
+     - Recommend code fixes or enhancements.
+     - Generate additional tests targeting these gaps using `improve_tests`.
+
+4. **Iterative Test Improvement**:
+   - Continue the cycle: generate tests → run tests → parse results → improve tests.
+   - Repeat until:
+     - All tests pass.
+     - Coverage meets or exceeds 80%.
+
+5. **Handle Failed Tests & Bugs**:
+   - If a test fails, analyze the error message.
+   - Suggest or implement code fixes.
+   - Generate new tests if failure is due to untested edge cases.
+
+6. **Version Control Integration**:
+   - Use Git tools to track progress:
+     - `git_status` → check repository status.
+     - `git_add_all` → stage changes.
+     - `git_commit` → commit changes with coverage metadata.
+     - `git_push` → push commits to remote.
+     - `git_pull_request` → create PRs with coverage improvements noted.
+
+7. **Logging & Monitoring**:
+   - Log each iteration of test generation and improvement.
+   - Include:
+     - Coverage percentage.
+     - Test pass/fail results.
+     - Any code fixes applied.
+     - Newly generated tests.
+   - Use logs to ensure iterative improvement is effective.
+
+8. **Goal**:
+   - Achieve **≥80% coverage**.
+   - No failing tests remain.
+   - Edge cases are tested and verified.
+
+## End of Agent Instructions ##

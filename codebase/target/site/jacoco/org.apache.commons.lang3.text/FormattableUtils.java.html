@@ -51,8 +51,8 @@ public class FormattableUtils {
      * instance to operate.&lt;/p&gt;
      */
     public FormattableUtils() {
-<span class="fc" id="L54">        super();</span>
-<span class="fc" id="L55">    }</span>
+<span class="nc" id="L54">        super();</span>
+<span class="nc" id="L55">    }</span>
 
     //-----------------------------------------------------------------------
     /**
@@ -63,7 +63,7 @@ public class FormattableUtils {
      * @return the resulting string, not null
      */
     public static String toString(final Formattable formattable) {
-<span class="fc" id="L66">        return String.format(SIMPLEST_FORMAT, formattable);</span>
+<span class="nc" id="L66">        return String.format(SIMPLEST_FORMAT, formattable);</span>
     }
 
     /**
@@ -80,7 +80,7 @@ public class FormattableUtils {
      */
     public static Formatter append(final CharSequence seq, final Formatter formatter, final int flags, final int width,
             final int precision) {
-<span class="fc" id="L83">        return append(seq, formatter, flags, width, precision, ' ', null);</span>
+<span class="nc" id="L83">        return append(seq, formatter, flags, width, precision, ' ', null);</span>
     }
 
     /**
@@ -97,7 +97,7 @@ public class FormattableUtils {
      */
     public static Formatter append(final CharSequence seq, final Formatter formatter, final int flags, final int width,
             final int precision, final char padChar) {
-<span class="fc" id="L100">        return append(seq, formatter, flags, width, precision, padChar, null);</span>
+<span class="nc" id="L100">        return append(seq, formatter, flags, width, precision, padChar, null);</span>
     }
 
     /**
@@ -115,7 +115,7 @@ public class FormattableUtils {
      */
     public static Formatter append(final CharSequence seq, final Formatter formatter, final int flags, final int width,
             final int precision, final CharSequence ellipsis) {
-<span class="fc" id="L118">        return append(seq, formatter, flags, width, precision, ' ', ellipsis);</span>
+<span class="nc" id="L118">        return append(seq, formatter, flags, width, precision, ' ', ellipsis);</span>
     }
 
     /**
@@ -133,20 +133,20 @@ public class FormattableUtils {
      */
     public static Formatter append(final CharSequence seq, final Formatter formatter, final int flags, final int width,
             final int precision, final char padChar, final CharSequence ellipsis) {
-<span class="fc bfc" id="L136" title="All 6 branches covered.">        Validate.isTrue(ellipsis == null || precision &lt; 0 || ellipsis.length() &lt;= precision,</span>
-<span class="fc" id="L137">                &quot;Specified ellipsis '%1$s' exceeds precision of %2$s&quot;, ellipsis, Integer.valueOf(precision));</span>
-<span class="fc" id="L138">        final StringBuilder buf = new StringBuilder(seq);</span>
-<span class="fc bfc" id="L139" title="All 4 branches covered.">        if (precision &gt;= 0 &amp;&amp; precision &lt; seq.length()) {</span>
-<span class="fc" id="L140">            final CharSequence _ellipsis = ObjectUtils.defaultIfNull(ellipsis, StringUtils.EMPTY);</span>
-<span class="fc" id="L141">            buf.replace(precision - _ellipsis.length(), seq.length(), _ellipsis.toString());</span>
+<span class="nc bnc" id="L136" title="All 6 branches missed.">        Validate.isTrue(ellipsis == null || precision &lt; 0 || ellipsis.length() &lt;= precision,</span>
+<span class="nc" id="L137">                &quot;Specified ellipsis '%1$s' exceeds precision of %2$s&quot;, ellipsis, Integer.valueOf(precision));</span>
+<span class="nc" id="L138">        final StringBuilder buf = new StringBuilder(seq);</span>
+<span class="nc bnc" id="L139" title="All 4 branches missed.">        if (precision &gt;= 0 &amp;&amp; precision &lt; seq.length()) {</span>
+<span class="nc" id="L140">            final CharSequence _ellipsis = ObjectUtils.defaultIfNull(ellipsis, StringUtils.EMPTY);</span>
+<span class="nc" id="L141">            buf.replace(precision - _ellipsis.length(), seq.length(), _ellipsis.toString());</span>
         }
-<span class="fc bfc" id="L143" title="All 2 branches covered.">        final boolean leftJustify = (flags &amp; LEFT_JUSTIFY) == LEFT_JUSTIFY;</span>
-<span class="fc bfc" id="L144" title="All 2 branches covered.">        for (int i = buf.length(); i &lt; width; i++) {</span>
-<span class="fc bfc" id="L145" title="All 2 branches covered.">            buf.insert(leftJustify ? i : 0, padChar);</span>
+<span class="nc bnc" id="L143" title="All 2 branches missed.">        final boolean leftJustify = (flags &amp; LEFT_JUSTIFY) == LEFT_JUSTIFY;</span>
+<span class="nc bnc" id="L144" title="All 2 branches missed.">        for (int i = buf.length(); i &lt; width; i++) {</span>
+<span class="nc bnc" id="L145" title="All 2 branches missed.">            buf.insert(leftJustify ? i : 0, padChar);</span>
         }
-<span class="fc" id="L147">        formatter.format(buf.toString());</span>
-<span class="fc" id="L148">        return formatter;</span>
+<span class="nc" id="L147">        formatter.format(buf.toString());</span>
+<span class="nc" id="L148">        return formatter;</span>
     }
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

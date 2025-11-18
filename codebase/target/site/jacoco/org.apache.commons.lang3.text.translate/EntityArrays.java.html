@@ -24,15 +24,15 @@ package org.apache.commons.lang3.text.translate;
  * @since 3.0
  * @version $Id$
  */
-<span class="nc" id="L27">public class EntityArrays {</span>
+<span class="fc" id="L27">public class EntityArrays {</span>
 
     /**
      * Mapping to escape &lt;a href=&quot;https://secure.wikimedia.org/wikipedia/en/wiki/ISO/IEC_8859-1&quot;&gt;ISO-8859-1&lt;/a&gt;
      * characters to their named HTML 3.x equivalents.
      * @return the mapping table
      */
-<span class="nc" id="L34">    public static String[][] ISO8859_1_ESCAPE() { return ISO8859_1_ESCAPE.clone(); }</span>
-<span class="nc" id="L35">    private static final String[][] ISO8859_1_ESCAPE = {</span>
+<span class="fc" id="L34">    public static String[][] ISO8859_1_ESCAPE() { return ISO8859_1_ESCAPE.clone(); }</span>
+<span class="fc" id="L35">    private static final String[][] ISO8859_1_ESCAPE = {</span>
         {&quot;\u00A0&quot;, &quot;&amp;nbsp;&quot;}, // non-breaking space
         {&quot;\u00A1&quot;, &quot;&amp;iexcl;&quot;}, // inverted exclamation mark
         {&quot;\u00A2&quot;, &quot;&amp;cent;&quot;}, // cent sign
@@ -136,7 +136,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L138">    public static String[][] ISO8859_1_UNESCAPE() { return ISO8859_1_UNESCAPE.clone(); }</span>
-<span class="nc" id="L139">    private static final String[][] ISO8859_1_UNESCAPE = invert(ISO8859_1_ESCAPE);</span>
+<span class="fc" id="L139">    private static final String[][] ISO8859_1_UNESCAPE = invert(ISO8859_1_ESCAPE);</span>
 
     /**
      * Mapping to escape additional &lt;a href=&quot;http://www.w3.org/TR/REC-html40/sgml/entities.html&quot;&gt;character entity
@@ -144,8 +144,8 @@ package org.apache.commons.lang3.text.translate;
      * HTML 4.0 character entities.
      * @return the mapping table
      */
-<span class="nc" id="L147">    public static String[][] HTML40_EXTENDED_ESCAPE() { return HTML40_EXTENDED_ESCAPE.clone(); }</span>
-<span class="nc" id="L148">    private static final String[][] HTML40_EXTENDED_ESCAPE = {</span>
+<span class="fc" id="L147">    public static String[][] HTML40_EXTENDED_ESCAPE() { return HTML40_EXTENDED_ESCAPE.clone(); }</span>
+<span class="fc" id="L148">    private static final String[][] HTML40_EXTENDED_ESCAPE = {</span>
         // &lt;!-- Latin Extended-B --&gt;
         {&quot;\u0192&quot;, &quot;&amp;fnof;&quot;}, // latin small f with hook = function= florin, U+0192 ISOtech --&gt;
         // &lt;!-- Greek --&gt;
@@ -347,7 +347,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L349">    public static String[][] HTML40_EXTENDED_UNESCAPE() { return HTML40_EXTENDED_UNESCAPE.clone(); }</span>
-<span class="nc" id="L350">    private static final String[][] HTML40_EXTENDED_UNESCAPE = invert(HTML40_EXTENDED_ESCAPE);</span>
+<span class="fc" id="L350">    private static final String[][] HTML40_EXTENDED_UNESCAPE = invert(HTML40_EXTENDED_ESCAPE);</span>
 
     /**
      * Mapping to escape the basic XML and HTML character entities.
@@ -356,7 +356,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L358">    public static String[][] BASIC_ESCAPE() { return BASIC_ESCAPE.clone(); }</span>
-<span class="nc" id="L359">    private static final String[][] BASIC_ESCAPE = {</span>
+<span class="fc" id="L359">    private static final String[][] BASIC_ESCAPE = {</span>
         {&quot;\&quot;&quot;, &quot;&amp;quot;&quot;}, // &quot; - double-quote
         {&quot;&amp;&quot;, &quot;&amp;amp;&quot;},   // &amp; - ampersand
         {&quot;&lt;&quot;, &quot;&amp;lt;&quot;},    // &lt; - less-than
@@ -368,14 +368,14 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L370">    public static String[][] BASIC_UNESCAPE() { return BASIC_UNESCAPE.clone(); }</span>
-<span class="nc" id="L371">    private static final String[][] BASIC_UNESCAPE = invert(BASIC_ESCAPE);</span>
+<span class="fc" id="L371">    private static final String[][] BASIC_UNESCAPE = invert(BASIC_ESCAPE);</span>
 
     /**
      * Mapping to escape the apostrophe character to its XML character entity.
      * @return the mapping table
      */
 <span class="nc" id="L377">    public static String[][] APOS_ESCAPE() { return APOS_ESCAPE.clone(); }</span>
-<span class="nc" id="L378">    private static final String[][] APOS_ESCAPE = {</span>
+<span class="fc" id="L378">    private static final String[][] APOS_ESCAPE = {</span>
         {&quot;'&quot;, &quot;&amp;apos;&quot;}, // XML apostrophe
     };
 
@@ -384,7 +384,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L386">    public static String[][] APOS_UNESCAPE() { return APOS_UNESCAPE.clone(); }</span>
-<span class="nc" id="L387">    private static final String[][] APOS_UNESCAPE = invert(APOS_ESCAPE);</span>
+<span class="fc" id="L387">    private static final String[][] APOS_UNESCAPE = invert(APOS_ESCAPE);</span>
 
     /**
      * Mapping to escape the Java control characters.
@@ -393,7 +393,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L395">    public static String[][] JAVA_CTRL_CHARS_ESCAPE() { return JAVA_CTRL_CHARS_ESCAPE.clone(); }</span>
-<span class="nc" id="L396">    private static final String[][] JAVA_CTRL_CHARS_ESCAPE = {</span>
+<span class="fc" id="L396">    private static final String[][] JAVA_CTRL_CHARS_ESCAPE = {</span>
         {&quot;\b&quot;, &quot;\\b&quot;},
         {&quot;\n&quot;, &quot;\\n&quot;},
         {&quot;\t&quot;, &quot;\\t&quot;},
@@ -406,7 +406,7 @@ package org.apache.commons.lang3.text.translate;
      * @return the mapping table
      */
 <span class="nc" id="L408">    public static String[][] JAVA_CTRL_CHARS_UNESCAPE() { return JAVA_CTRL_CHARS_UNESCAPE.clone(); }</span>
-<span class="nc" id="L409">    private static final String[][] JAVA_CTRL_CHARS_UNESCAPE = invert(JAVA_CTRL_CHARS_ESCAPE);</span>
+<span class="fc" id="L409">    private static final String[][] JAVA_CTRL_CHARS_UNESCAPE = invert(JAVA_CTRL_CHARS_ESCAPE);</span>
 
     /**
      * Used to invert an escape array into an unescape array
@@ -414,13 +414,13 @@ package org.apache.commons.lang3.text.translate;
      * @return String[][] inverted array
      */
     public static String[][] invert(final String[][] array) {
-<span class="nc" id="L417">        final String[][] newarray = new String[array.length][2];</span>
-<span class="nc bnc" id="L418" title="All 2 branches missed.">        for(int i = 0; i&lt;array.length; i++) {</span>
-<span class="nc" id="L419">            newarray[i][0] = array[i][1];</span>
-<span class="nc" id="L420">            newarray[i][1] = array[i][0];</span>
+<span class="fc" id="L417">        final String[][] newarray = new String[array.length][2];</span>
+<span class="fc bfc" id="L418" title="All 2 branches covered.">        for(int i = 0; i&lt;array.length; i++) {</span>
+<span class="fc" id="L419">            newarray[i][0] = array[i][1];</span>
+<span class="fc" id="L420">            newarray[i][1] = array[i][0];</span>
         }
-<span class="nc" id="L422">        return newarray;</span>
+<span class="fc" id="L422">        return newarray;</span>
     }
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

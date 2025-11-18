@@ -151,10 +151,10 @@ public class Validate {
      * @see #isTrue(boolean, String, double)
      */
     public static void isTrue(final boolean expression, final String message, final Object... values) {
-<span class="fc bfc" id="L154" title="All 2 branches covered.">        if (expression == false) {</span>
-<span class="fc" id="L155">            throw new IllegalArgumentException(String.format(message, values));</span>
+<span class="nc bnc" id="L154" title="All 2 branches missed.">        if (expression == false) {</span>
+<span class="nc" id="L155">            throw new IllegalArgumentException(String.format(message, values));</span>
         }
-<span class="fc" id="L157">    }</span>
+<span class="nc" id="L157">    }</span>
 
     /**
      * &lt;p&gt;Validate that the argument condition is {@code true}; otherwise
@@ -1078,4 +1078,4 @@ public class Validate {
         }
 <span class="nc" id="L1079">    }</span>
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

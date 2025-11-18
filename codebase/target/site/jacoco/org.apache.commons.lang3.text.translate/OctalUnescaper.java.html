@@ -31,31 +31,31 @@ import java.io.Writer;
  * @since 3.0
  * @version $Id: OctalUnescaper.java 967237 2010-07-23 20:08:57Z mbenson $
  */
-<span class="nc" id="L34">public class OctalUnescaper extends CharSequenceTranslator {</span>
+<span class="fc" id="L34">public class OctalUnescaper extends CharSequenceTranslator {</span>
 
-<span class="nc" id="L36">    private static int OCTAL_MAX = 377;</span>
+<span class="fc" id="L36">    private static int OCTAL_MAX = 377;</span>
 
     /**
      * {@inheritDoc}
      */
     @Override
     public int translate(final CharSequence input, final int index, final Writer out) throws IOException {
-<span class="nc bnc" id="L43" title="All 6 branches missed.">        if(input.charAt(index) == '\\' &amp;&amp; index &lt; (input.length() - 1) &amp;&amp; Character.isDigit(input.charAt(index + 1)) ) {</span>
-<span class="nc" id="L44">            final int start = index + 1;</span>
+<span class="pc bpc" id="L43" title="2 of 6 branches missed.">        if(input.charAt(index) == '\\' &amp;&amp; index &lt; (input.length() - 1) &amp;&amp; Character.isDigit(input.charAt(index + 1)) ) {</span>
+<span class="fc" id="L44">            final int start = index + 1;</span>
 
-<span class="nc" id="L46">            int end = index + 2;</span>
-<span class="nc bnc" id="L47" title="All 4 branches missed.">            while ( end &lt; input.length() &amp;&amp; Character.isDigit(input.charAt(end)) ) {</span>
-<span class="nc" id="L48">                end++;</span>
-<span class="nc bnc" id="L49" title="All 2 branches missed.">                if ( Integer.parseInt(input.subSequence(start, end).toString(), 10) &gt; OCTAL_MAX) {</span>
-<span class="nc" id="L50">                    end--; // rollback</span>
-<span class="nc" id="L51">                    break;</span>
+<span class="fc" id="L46">            int end = index + 2;</span>
+<span class="fc bfc" id="L47" title="All 4 branches covered.">            while ( end &lt; input.length() &amp;&amp; Character.isDigit(input.charAt(end)) ) {</span>
+<span class="fc" id="L48">                end++;</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">                if ( Integer.parseInt(input.subSequence(start, end).toString(), 10) &gt; OCTAL_MAX) {</span>
+<span class="fc" id="L50">                    end--; // rollback</span>
+<span class="fc" id="L51">                    break;</span>
                 }
             }
 
-<span class="nc" id="L55">            out.write( Integer.parseInt(input.subSequence(start, end).toString(), 8) );</span>
-<span class="nc" id="L56">            return 1 + end - start;</span>
+<span class="fc" id="L55">            out.write( Integer.parseInt(input.subSequence(start, end).toString(), 8) );</span>
+<span class="fc" id="L56">            return 1 + end - start;</span>
         }
-<span class="nc" id="L58">        return 0;</span>
+<span class="fc" id="L58">        return 0;</span>
     }
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

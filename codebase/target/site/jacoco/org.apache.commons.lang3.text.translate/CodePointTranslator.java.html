@@ -26,7 +26,7 @@ import java.io.Writer;
  * @since 3.0
  * @version $Id$
  */
-<span class="nc" id="L29">public abstract class CodePointTranslator extends CharSequenceTranslator {</span>
+<span class="fc" id="L29">public abstract class CodePointTranslator extends CharSequenceTranslator {</span>
 
     /**
      * Implementation of translate that maps onto the abstract translate(int, Writer) method. 
@@ -34,12 +34,12 @@ import java.io.Writer;
      */
     @Override
     public final int translate(final CharSequence input, final int index, final Writer out) throws IOException {
-<span class="nc" id="L37">        final int codepoint = Character.codePointAt(input, index);</span>
-<span class="nc" id="L38">        final boolean consumed = translate(codepoint, out);</span>
-<span class="nc bnc" id="L39" title="All 2 branches missed.">        if (consumed) {</span>
-<span class="nc" id="L40">            return 1;</span>
+<span class="fc" id="L37">        final int codepoint = Character.codePointAt(input, index);</span>
+<span class="fc" id="L38">        final boolean consumed = translate(codepoint, out);</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (consumed) {</span>
+<span class="fc" id="L40">            return 1;</span>
         } else {
-<span class="nc" id="L42">            return 0;</span>
+<span class="fc" id="L42">            return 0;</span>
         }
     }
 
@@ -54,4 +54,4 @@ import java.io.Writer;
     public abstract boolean translate(int codepoint, Writer out) throws IOException;
 
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

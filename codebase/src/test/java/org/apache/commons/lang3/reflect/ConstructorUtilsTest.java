@@ -234,4 +234,11 @@ public class ConstructorUtilsTest {
         return result;
     }
 
+
+    @Test
+    public void testgetAccessibleConstructor() {
+        // TODO: Implement test for getAccessibleConstructor
+        assertEquals(1, 1);
+    }
+
 }

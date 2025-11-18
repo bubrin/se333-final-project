@@ -27,41 +27,41 @@ import java.io.Writer;
  * @since 3.0
  * @version $Id$
  */
-<span class="nc" id="L30">public class UnicodeUnescaper extends CharSequenceTranslator {</span>
+<span class="fc" id="L30">public class UnicodeUnescaper extends CharSequenceTranslator {</span>
 
     /**
      * {@inheritDoc}
      */
     @Override
     public int translate(final CharSequence input, final int index, final Writer out) throws IOException {
-<span class="nc bnc" id="L37" title="All 6 branches missed.">        if (input.charAt(index) == '\\' &amp;&amp; index + 1 &lt; input.length() &amp;&amp; input.charAt(index + 1) == 'u') {</span>
+<span class="pc bpc" id="L37" title="1 of 6 branches missed.">        if (input.charAt(index) == '\\' &amp;&amp; index + 1 &lt; input.length() &amp;&amp; input.charAt(index + 1) == 'u') {</span>
             // consume optional additional 'u' chars
-<span class="nc" id="L39">            int i = 2;</span>
-<span class="nc bnc" id="L40" title="All 4 branches missed.">            while (index + i &lt; input.length() &amp;&amp; input.charAt(index + i) == 'u') {</span>
-<span class="nc" id="L41">                i++;</span>
+<span class="fc" id="L39">            int i = 2;</span>
+<span class="pc bpc" id="L40" title="1 of 4 branches missed.">            while (index + i &lt; input.length() &amp;&amp; input.charAt(index + i) == 'u') {</span>
+<span class="fc" id="L41">                i++;</span>
             }
 
-<span class="nc bnc" id="L44" title="All 4 branches missed.">            if (index + i &lt; input.length() &amp;&amp; input.charAt(index + i) == '+') {</span>
-<span class="nc" id="L45">                i++;</span>
+<span class="pc bpc" id="L44" title="1 of 4 branches missed.">            if (index + i &lt; input.length() &amp;&amp; input.charAt(index + i) == '+') {</span>
+<span class="fc" id="L45">                i++;</span>
             }
 
-<span class="nc bnc" id="L48" title="All 2 branches missed.">            if (index + i + 4 &lt;= input.length()) {</span>
+<span class="fc bfc" id="L48" title="All 2 branches covered.">            if (index + i + 4 &lt;= input.length()) {</span>
                 // Get 4 hex digits
-<span class="nc" id="L50">                final CharSequence unicode = input.subSequence(index + i, index + i + 4);</span>
+<span class="fc" id="L50">                final CharSequence unicode = input.subSequence(index + i, index + i + 4);</span>
 
                 try {
-<span class="nc" id="L53">                    final int value = Integer.parseInt(unicode.toString(), 16);</span>
-<span class="nc" id="L54">                    out.write((char) value);</span>
+<span class="fc" id="L53">                    final int value = Integer.parseInt(unicode.toString(), 16);</span>
+<span class="fc" id="L54">                    out.write((char) value);</span>
 <span class="nc" id="L55">                } catch (final NumberFormatException nfe) {</span>
 <span class="nc" id="L56">                    throw new IllegalArgumentException(&quot;Unable to parse unicode value: &quot; + unicode, nfe);</span>
-<span class="nc" id="L57">                }</span>
-<span class="nc" id="L58">                return i + 4;</span>
+<span class="fc" id="L57">                }</span>
+<span class="fc" id="L58">                return i + 4;</span>
             } else {
-<span class="nc" id="L60">                throw new IllegalArgumentException(&quot;Less than 4 hex digits in unicode value: '&quot; + input.subSequence(index, input.length())</span>
+<span class="fc" id="L60">                throw new IllegalArgumentException(&quot;Less than 4 hex digits in unicode value: '&quot; + input.subSequence(index, input.length())</span>
                         + &quot;' due to end of CharSequence&quot;);
             }
         }
-<span class="nc" id="L64">        return 0;</span>
+<span class="fc" id="L64">        return 0;</span>
     }
 }
-</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>

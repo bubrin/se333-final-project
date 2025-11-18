@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1763416965126
+Bnd-LastModified: 1763425901181
 Build-Jdk: 21.0.8
 Built-By: sofid
 Bundle-Description: Commons Lang, a package of Java utility classes for 
