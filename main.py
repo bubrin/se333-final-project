@@ -281,6 +281,33 @@ public class {class_name}ContractTest {{
 
     return {"status": "success", "message": "Contract-based tests generated", "test_file": test_file}
 
+@mcp.tool
+def run_checkstyle(project_path: str) -> dict:
+    """
+    Run Maven Checkstyle on the project and return path or output.
+    """
+    project_path = os.path.abspath(project_path)
+    pom_file = os.path.join(project_path, "pom.xml")
+    if not os.path.exists(pom_file):
+        return {"status": "error", "message": "pom.xml not found in project path"}
+
+    # Run Checkstyle via Maven
+    result = subprocess.run(
+        ["mvn.cmd", "checkstyle:checkstyle", "-B"],
+        cwd=project_path,
+        capture_output=True,
+        text=True
+    )
+
+    if result.returncode != 0:
+        return {"status": "error", "message": result.stderr}
+
+    # Default output file location from Maven Checkstyle plugin
+    report_file = os.path.join(project_path, "target", "checkstyle-result.xml")
+    if not os.path.exists(report_file):
+        return {"status": "warning", "message": "Checkstyle ran but report not found", "output": result.stdout}
+
+    return {"status": "success", "report_file": report_file, "output": result.stdout}
 # --------------------------
 # Git Automation
 # --------------------------
