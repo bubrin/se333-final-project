@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: CompositeFormatEquivalenceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in CompositeFormatEquivalenceTest
+testParseableInputClasses  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Should not throw ParseException: Format.parseObject(String) failed
+	at CompositeFormatEquivalenceTest.testParseableInputClasses(CompositeFormatEquivalenceTest.java:77)
+
+testReformatInputClasses  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Invalid input should throw ParseException ==> Unexpected exception type thrown ==> expected: <java.text.ParseException> but was: <java.lang.RuntimeException>
+	at CompositeFormatEquivalenceTest.testReformatInputClasses(CompositeFormatEquivalenceTest.java:229)
+Caused by: java.lang.RuntimeException: Cannot parse: 123abc
+	at CompositeFormatEquivalenceTest.lambda$testReformatInputClasses$0(CompositeFormatEquivalenceTest.java:230)
+	at CompositeFormatEquivalenceTest.testReformatInputClasses(CompositeFormatEquivalenceTest.java:229)
+
