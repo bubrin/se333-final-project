@@ -18,8 +18,8 @@ jobs:
           distribution: 'temurin'
           architecture: x64
 
-      - name: Install Linter
-        run: mvn install -DskipTests
+      - name: Build Project
+        run: mvn clean compile
 
       - name: Run Checkstyle
         run: mvn checkstyle:check
