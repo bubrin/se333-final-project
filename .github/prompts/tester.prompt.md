@@ -2,20 +2,18 @@ mode: "agent"
 tools:
   - generate_tests
   - parse_results
-  - improve_tests
-  - generate_and_improve
   - git_status
   - git_add_all
   - git_commit
   - git_push
   - git_pull_request
-description: "Automated test generation, improvement, and Git workflow for Java Maven projects using JaCoCo coverage."
-model: "Gpt-5 mini"
+description: "Automated test generation, improvement, and Git workflow for Java Maven projects using JaCoCo coverage and Checkstyle for static code analysis."
+model: "Claude Sonnet 4"
 
 ## Agent Instructions ##
 
 1. **Generate JUnit Tests**:
-   - Use `generate_tests` or `generate_and_improve` to create test stubs for all public methods in Java classes.
+   - Use `generate_tests` to create initial JUnit test cases for the Java Maven project.
    - Ensure initial tests cover method signatures and key behaviors.
 
 2. **Run Tests & Evaluate Coverage**:

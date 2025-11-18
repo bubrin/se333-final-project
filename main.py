@@ -97,21 +97,6 @@ public class {class_name}Test {{
 
     return {"status": "created", "message": "Generated new test stubs", "test_file": test_file}
 
-# --------------------------
-# Maven & Coverage
-# --------------------------
-
-@mcp.tool
-def run_tests(project_path: str) -> dict:
-    """Run Maven tests and parse results."""
-    project_path = os.path.abspath(project_path)
-    command = ["mvn", "-f", os.path.join(project_path, "pom.xml"), "test"]
-    try:
-        result = subprocess.run(command, check=True, capture_output=True, text=True)
-        return {"status": "success", "output": result.stdout}
-    except subprocess.CalledProcessError as e:
-        return {"status": "error", "message": e.stderr}
-
 @mcp.tool
 def parse_results(project_path: str) -> dict:
     """Parse Maven surefire reports and JaCoCo coverage XML."""
