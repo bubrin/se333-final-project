@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.lang3.reflect.FieldUtilsTest
 -------------------------------------------------------------------------------
-Tests run: 44, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.033 s <<< FAILURE! - in org.apache.commons.lang3.reflect.FieldUtilsTest
+Tests run: 44, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in org.apache.commons.lang3.reflect.FieldUtilsTest
 testGetAllFieldsList  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: expected:<5> but was:<7>
 	at org.apache.commons.lang3.reflect.FieldUtilsTest.testGetAllFieldsList(FieldUtilsTest.java:167)
 
-testGetAllFields  Time elapsed: 0.001 s  <<< FAILURE!
+testGetAllFields  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: expected:<5> but was:<7>
 	at org.apache.commons.lang3.reflect.FieldUtilsTest.testGetAllFields(FieldUtilsTest.java:147)
 

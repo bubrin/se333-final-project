@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: ConversionEquivalenceTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ConversionEquivalenceTest
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in ConversionEquivalenceTest
 testHexStringEquivalenceClasses  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <291> but was: <801>
 	at ConversionEquivalenceTest.testHexStringEquivalenceClasses(ConversionEquivalenceTest.java:101)

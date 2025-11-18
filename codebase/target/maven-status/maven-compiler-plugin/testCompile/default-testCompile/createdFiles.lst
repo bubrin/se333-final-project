@@ -92,6 +92,7 @@ org\apache\commons\lang3\tuple\MutableTripleTest.class
 org\apache\commons\lang3\builder\StandardToStringStyleTest.class
 org\apache\commons\lang3\ClassNotFoundSerialization.class
 CompositeFormatDecisionTableTest$6.class
+HashCodeBuilderBoundaryTest.class
 org\apache\commons\lang3\builder\ReflectionToStringBuilderExcludeTest$TestFixture.class
 org\apache\commons\lang3\event\EventUtilsTest$EventCounter.class
 org\apache\commons\lang3\builder\ToStringBuilderTest.class
@@ -117,6 +118,7 @@ org\apache\commons\lang3\reflect\TypeUtilsTest$Other.class
 org\apache\commons\lang3\reflect\MethodUtilsTest$TestBeanWithInterfaces.class
 ConversionEquivalenceTest.class
 org\apache\commons\lang3\builder\ToStringBuilderTest$ReflectionStaticFieldsFixture.class
+TypeUtilsBoundaryTest.class
 org\apache\commons\lang3\reflect\AClass$EClass.class
 org\apache\commons\lang3\reflect\TypeUtilsTest$Tester.class
 org\apache\commons\lang3\builder\CompareToBuilderTest$TestTransientSubObject.class
@@ -275,6 +277,7 @@ CompositeFormatEquivalenceTest$4.class
 org\apache\commons\lang3\builder\ToStringBuilderTest$MultiLineTestObject.class
 org\apache\commons\lang3\text\StrBuilderAppendInsertTest$10.class
 org\apache\commons\lang3\reflect\testbed\GenericTypeHolder.class
+EqualsBuilderBoundaryTest.class
 org\apache\commons\lang3\StringUtilsStartsEndsWithTest.class
 org\apache\commons\lang3\text\StrBuilderAppendInsertTest$8.class
 org\apache\commons\lang3\ClassUtilsTest$IA.class

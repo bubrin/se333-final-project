@@ -1,0 +1,15 @@
+# Created at 2025-11-18T02:14:51.756
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2025-11-18T02:14:51.757
+WARNING: Illegal reflective access by org.apache.commons.lang3.builder.CompareToBuilder (file:/c:/Users/sofid/Downloads/final_project_se333_SofiaBarrios/codebase/target/classes/) to field java.lang.String.value
+
+# Created at 2025-11-18T02:14:51.757
+WARNING: Please consider reporting this to the maintainers of org.apache.commons.lang3.builder.CompareToBuilder
+
+# Created at 2025-11-18T02:14:51.758
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2025-11-18T02:14:51.758
+WARNING: All illegal access operations will be denied in a future release
+

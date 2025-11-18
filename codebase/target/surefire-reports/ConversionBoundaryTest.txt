@@ -1,19 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: ConversionBoundaryTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! - in ConversionBoundaryTest
-testHexToIntBoundaryValues  Time elapsed: 0.003 s  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! - in ConversionBoundaryTest
+testHexToIntBoundaryValues  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <2147483647> but was: <-9>
 	at ConversionBoundaryTest.testHexToIntBoundaryValues(ConversionBoundaryTest.java:66)
 
-testByteArrayToIntBoundaryValues  Time elapsed: 0.002 s  <<< FAILURE!
+testByteArrayToIntBoundaryValues  Time elapsed: 0 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.ArrayIndexOutOfBoundsException>
 	at ConversionBoundaryTest.testByteArrayToIntBoundaryValues(ConversionBoundaryTest.java:54)
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 5
 	at ConversionBoundaryTest.lambda$testByteArrayToIntBoundaryValues$8(ConversionBoundaryTest.java:55)
 	at ConversionBoundaryTest.testByteArrayToIntBoundaryValues(ConversionBoundaryTest.java:54)
 
-testBinaryToHexDigitBoundaryValues  Time elapsed: 0.003 s  <<< FAILURE!
+testBinaryToHexDigitBoundaryValues  Time elapsed: 0.001 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <java.lang.IllegalArgumentException> but was: <java.lang.ArrayIndexOutOfBoundsException>
 	at ConversionBoundaryTest.testBinaryToHexDigitBoundaryValues(ConversionBoundaryTest.java:105)
 Caused by: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 4

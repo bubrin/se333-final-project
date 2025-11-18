@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: CompositeFormatBoundaryTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.076 s <<< FAILURE! - in CompositeFormatBoundaryTest
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in CompositeFormatBoundaryTest
 testMaxStringLengthHandling  Time elapsed: 0.017 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Should not throw ParseException: Format.parseObject(String) failed
 	at CompositeFormatBoundaryTest.testMaxStringLengthHandling(CompositeFormatBoundaryTest.java:186)
 
-testReformatBoundaries  Time elapsed: 0.001 s  <<< ERROR!
+testReformatBoundaries  Time elapsed: 0 s  <<< ERROR!
 java.text.ParseException: Format.parseObject(String) failed
 	at CompositeFormatBoundaryTest.testReformatBoundaries(CompositeFormatBoundaryTest.java:230)
 

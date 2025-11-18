@@ -1,29 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.lang3.reflect.TypeUtilsTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in org.apache.commons.lang3.reflect.TypeUtilsTest
+Tests run: 11, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.018 s <<< FAILURE! - in org.apache.commons.lang3.reflect.TypeUtilsTest
 testGetTypeArguments  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testGetTypeArguments(TypeUtilsTest.java:477)
 
-testIsInstance  Time elapsed: 0 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testIsInstance  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testIsInstance(TypeUtilsTest.java:466)
 
-testIsAssignable  Time elapsed: 0.028 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testIsAssignable  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.delegateBooleanAssertion(TypeUtilsTest.java:447)
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testIsAssignable(TypeUtilsTest.java:170)
 
-testTypesSatisfyVariables  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testTypesSatisfyVariables  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testTypesSatisfyVariables(TypeUtilsTest.java:526)
 
-testDetermineTypeVariableAssignments  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testDetermineTypeVariableAssignments  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testDetermineTypeVariableAssignments(TypeUtilsTest.java:540)
 
-testGetRawType  Time elapsed: 0.005 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testGetRawType  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.reflect.TypeUtilsTest.testGetRawType(TypeUtilsTest.java:561)
 

@@ -1,29 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.commons.lang3.time.DateUtilsTest
 -------------------------------------------------------------------------------
-Tests run: 38, Failures: 12, Errors: 5, Skipped: 0, Time elapsed: 0.052 s <<< FAILURE! - in org.apache.commons.lang3.time.DateUtilsTest
-testLANG799_DE_OK  Time elapsed: 0.009 s  <<< ERROR!
+Tests run: 38, Failures: 12, Errors: 5, Skipped: 0, Time elapsed: 0.023 s <<< FAILURE! - in org.apache.commons.lang3.time.DateUtilsTest
+testLANG799_DE_OK  Time elapsed: 0.003 s  <<< ERROR!
 java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT
 	at org.apache.commons.lang3.time.DateUtilsTest.testLANG799_DE_OK(DateUtilsTest.java:1598)
 
-testLANG799_EN_WITH_DE_LOCALE  Time elapsed: 0.001 s  <<< ERROR!
+testLANG799_EN_WITH_DE_LOCALE  Time elapsed: 0 s  <<< ERROR!
 java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT
 	at org.apache.commons.lang3.time.DateUtilsTest.testLANG799_EN_WITH_DE_LOCALE(DateUtilsTest.java:1623)
 
-testRound  Time elapsed: 0.009 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testRound  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.time.DateUtilsTest.testRound(DateUtilsTest.java:848)
 
-testCeil  Time elapsed: 0.004 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+testCeil  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
 	at org.apache.commons.lang3.time.DateUtilsTest.testCeil(DateUtilsTest.java:1427)
 
-testAddSeconds  Time elapsed: 0.002 s  <<< FAILURE!
+testAddSeconds  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddSeconds(DateUtilsTest.java:439)
 
-testSetMinutes  Time elapsed: 0.001 s  <<< FAILURE!
+testSetMinutes  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetMinutes(DateUtilsTest.java:565)
@@ -33,7 +33,7 @@ java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddHours(DateUtilsTest.java:399)
 
-testAddWeeks  Time elapsed: 0.001 s  <<< FAILURE!
+testAddWeeks  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddWeeks(DateUtilsTest.java:359)
@@ -44,7 +44,7 @@ java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddYears(DateUtilsTest.java:319)
 
 testTruncateLang59  Time elapsed: 0.001 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
+java.lang.NullPointerException
 	at org.apache.commons.lang3.time.DateUtilsTest.testTruncateLang59(DateUtilsTest.java:1137)
 
 testSetSeconds  Time elapsed: 0.001 s  <<< FAILURE!
@@ -67,7 +67,7 @@ java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetDays(DateUtilsTest.java:521)
 
-testAddMilliseconds  Time elapsed: 0 s  <<< FAILURE!
+testAddMilliseconds  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddMilliseconds(DateUtilsTest.java:459)
