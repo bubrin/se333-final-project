@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" time="0.009" errors="2" skipped="0">
+<testsuite tests="4" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" time="0.01" errors="2" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -78,7 +78,7 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testFixture" time="0.007"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testFixtureWithTransients" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testFixtureWithTransients" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest" name="testInteger" time="0.001">
     <error message="Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @73846619" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @73846619
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)

@@ -22,6 +22,7 @@ org\apache\commons\lang3\tuple\TripleTest.class
 org\apache\commons\lang3\builder\ToStringStyleTest$Person.class
 org\apache\commons\lang3\concurrent\AtomicSafeInitializerTest$AtomicSafeInitializerTestImpl.class
 org\apache\commons\lang3\text\CompositeFormatTest$3.class
+CompositeFormatBoundaryTest.class
 org\apache\commons\lang3\CharUtilsTest.class
 org\apache\commons\lang3\exception\AbstractExceptionContextTest.class
 org\apache\commons\lang3\text\translate\EntityArraysTest.class
@@ -98,6 +99,7 @@ org\apache\commons\lang3\reflect\MethodUtilsTest$TestMutable.class
 org\apache\commons\lang3\StringUtilsSubstringTest.class
 org\apache\commons\lang3\AnnotationUtilsTest$TestAnnotation.class
 org\apache\commons\lang3\text\ExtendedMessageFormatTest$UpperCaseFormat.class
+CompositeFormatBoundaryTest$2.class
 org\apache\commons\lang3\ConversionTest.class
 org\apache\commons\lang3\reflect\TypeUtilsTest$Other.class
 org\apache\commons\lang3\reflect\MethodUtilsTest$TestBeanWithInterfaces.class
@@ -163,6 +165,7 @@ org\apache\commons\lang3\mutable\MutableShortTest.class
 org\apache\commons\lang3\reflect\TypeUtilsTest$Thing.class
 org\apache\commons\lang3\text\translate\LookupTranslatorTest.class
 org\apache\commons\lang3\event\EventListenerSupportTest$1.class
+CompositeFormatBoundaryTest$1.class
 org\apache\commons\lang3\ArrayUtilsTest.class
 org\apache\commons\lang3\event\EventUtilsTest$PropertyChangeSource.class
 org\apache\commons\lang3\ValidateTest.class

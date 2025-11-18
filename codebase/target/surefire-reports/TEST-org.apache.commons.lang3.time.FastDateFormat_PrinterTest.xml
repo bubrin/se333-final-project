@@ -70,10 +70,10 @@
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testCalendarTimezoneRespected" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang303" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang538" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang645" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang645" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testToStringContainsName" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testEquals" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testFormat" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testFormat" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testTimeZoneMatches" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testPatternMatches" time="0"/>
 </testsuite>

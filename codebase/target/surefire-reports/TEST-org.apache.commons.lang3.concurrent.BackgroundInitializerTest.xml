@@ -71,9 +71,9 @@
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testSetExternalExecutorAfterStart" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testInitialize" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testIsStartedAfterGet" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testGetActiveExecutorBeforeStart" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testGetActiveExecutorBeforeStart" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testGetBeforeStart" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testStartMultipleTimes" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testStartMultipleTimes" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testInitializeTempExecutor" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testGetInterruptedException" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.BackgroundInitializerTest" name="testSetExternalExecutor" time="0.002"/>

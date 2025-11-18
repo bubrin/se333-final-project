@@ -1,5 +1,6 @@
 mode: "agent"
 tools:
+  - run_maven_tests
   - generate_tests
   - parse_results
   - git_status
@@ -7,17 +8,21 @@ tools:
   - git_commit
   - git_push
   - git_pull_request
-description: "Automated test generation, improvement, and Git workflow for Java Maven projects using JaCoCo coverage and Checkstyle for static code analysis."
+  - generate_boundary_tests
+  - generate_equivalence_class_tests
+  - generate_decision_table_tests
+  - generate_contract_tests
+description: "Automated test generation, improvement, and Git workflow for Java Maven projects using JaCoCo coverage, Checkstyle for static code analysis, and specification-based testing (boundary, equivalence, decision table, contract)."
 model: "Claude Sonnet 4"
 
 ## Agent Instructions ##
 
-1. **Generate JUnit Tests**:
+1. **Generate Basic JUnit Tests**:
    - Use `generate_tests` to create initial JUnit test cases for the Java Maven project.
-   - Ensure initial tests cover method signatures and key behaviors.
+   - Ensure initial tests cover method signatures and basic behaviors.
 
 2. **Run Tests & Evaluate Coverage**:
-   - Use Maven to execute tests.
+   - Use `run_maven_tests` to execute tests automatically.
    - Parse results with `parse_results`.
    - Evaluate coverage using JaCoCo reports.
    - Minimum acceptable coverage: **80%**.
@@ -26,20 +31,29 @@ model: "Claude Sonnet 4"
    - If coverage < 80% or any test fails:
      - Identify uncovered methods, classes, or edge cases.
      - Recommend code fixes or enhancements.
-     - Generate additional tests targeting these gaps using `improve_tests`.
 
-4. **Iterative Test Improvement**:
-   - Continue the cycle: generate tests → run tests → parse results → improve tests.
-   - Repeat until:
+4. **Generate Specification-Based Tests**:
+   - If coverage >= 80% but edge cases remain untested, generate additional tests using:
+     - `generate_boundary_tests` for boundary value analysis.
+     - `generate_equivalence_class_tests` for equivalence classes.
+     - `generate_decision_table_tests` for decision table-based testing.
+     - `generate_contract_tests` for preconditions, postconditions, and invariants.
+
+5. **Iterative Test Improvement**:
+   - Repeat the cycle:
+     1. Generate tests → 2. Run tests → 3. Parse results → 4. Improve tests.
+   - Continue until:
      - All tests pass.
      - Coverage meets or exceeds 80%.
+     - Specification-based edge cases are fully tested.
 
-5. **Handle Failed Tests & Bugs**:
-   - If a test fails, analyze the error message.
-   - Suggest or implement code fixes.
-   - Generate new tests if failure is due to untested edge cases.
+6. **Handle Failed Tests & Bugs**:
+   - If a test fails:
+     - Analyze the error message.
+     - Suggest or implement code fixes.
+     - Generate new tests if failure is due to untested edge cases.
 
-6. **Version Control Integration**:
+7. **Version Control Integration**:
    - Use Git tools to track progress:
      - `git_status` → check repository status.
      - `git_add_all` → stage changes.
@@ -47,7 +61,7 @@ model: "Claude Sonnet 4"
      - `git_push` → push commits to remote.
      - `git_pull_request` → create PRs with coverage improvements noted.
 
-7. **Logging & Monitoring**:
+8. **Logging & Monitoring**:
    - Log each iteration of test generation and improvement.
    - Include:
      - Coverage percentage.
@@ -56,9 +70,9 @@ model: "Claude Sonnet 4"
      - Newly generated tests.
    - Use logs to ensure iterative improvement is effective.
 
-8. **Goal**:
+9. **Goal**:
    - Achieve **≥80% coverage**.
    - No failing tests remain.
-   - Edge cases are tested and verified.
+   - All boundary, equivalence, decision table, and contract-based tests are generated and verified.
 
 ## End of Agent Instructions ##

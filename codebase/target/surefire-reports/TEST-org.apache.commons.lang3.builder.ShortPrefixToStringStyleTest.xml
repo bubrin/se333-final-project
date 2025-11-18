@@ -62,11 +62,11 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testObjectArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testObjectArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testBlank" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testLongArrayArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testLongArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testLongArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testPerson" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest" name="testAppendSuper" time="0"/>

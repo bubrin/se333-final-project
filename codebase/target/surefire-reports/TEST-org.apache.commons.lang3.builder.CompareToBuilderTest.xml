@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="48" failures="0" name="org.apache.commons.lang3.builder.CompareToBuilderTest" time="0.046" errors="3" skipped="0">
+<testsuite tests="48" failures="0" name="org.apache.commons.lang3.builder.CompareToBuilderTest" time="0.058" errors="3" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -62,11 +62,11 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testCharArray" time="0.002"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectArray" time="0.003"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectBuild" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testCharArray" time="0.003"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectArray" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectBuild" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testFloatArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareExcludeFields" time="0.036">
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareExcludeFields" time="0.043">
     <error message="Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @73846619" type="java.lang.reflect.InaccessibleObjectException">java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @73846619
 	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
@@ -100,12 +100,12 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiCharArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testByteArrayHiddenByObject" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testByteArrayHiddenByObject" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testByteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testRaggedArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testFloat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShort" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLong" time="0"/>
@@ -114,14 +114,14 @@
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShortArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiByteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiBooleanArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionCompareEx1" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionCompareEx1" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionCompareEx2" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLongArrayHiddenByObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectEx2" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectEx2" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testCharArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiFloatArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMixedArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArrayHiddenByObject" time="0"/>
@@ -144,7 +144,7 @@
 </error>
   </testcase>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShortArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiLongArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiLongArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testFloatArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testObjectComparator" time="0"/>

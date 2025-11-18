@@ -63,13 +63,13 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_oddDash" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testSerialization" time="0.006"/>
-  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testClass" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_simple" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testSerialization" time="0.007"/>
+  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testClass" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_simple" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testEquals_Object" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testContains_Char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_combo" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_oddCombinations" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_combo" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_oddCombinations" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testConstructor_String_comboNegated" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testHashCode" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetTest" name="testGetInstance_Stringarray" time="0"/>

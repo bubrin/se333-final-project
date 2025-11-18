@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="17" failures="0" name="org.apache.commons.lang3.mutable.MutableByteTest" time="0" errors="0" skipped="0">
+<testsuite tests="17" failures="0" name="org.apache.commons.lang3.mutable.MutableByteTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -74,9 +74,9 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testAddValuePrimitive" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSubtractValueObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testDecrement" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testEquals" time="0"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testEquals" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testGetSet" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSetNull" time="0"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSetNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testToByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testAddValueObject" time="0"/>
 </testsuite>

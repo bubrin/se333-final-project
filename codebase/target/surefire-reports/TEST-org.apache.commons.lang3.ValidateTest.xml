@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="54" failures="0" name="org.apache.commons.lang3.ValidateTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="54" failures="0" name="org.apache.commons.lang3.ValidateTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -78,16 +78,16 @@
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testMatchesPattern" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyMap1" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyMap2" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testIsInstanceOf" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testIsInstanceOf" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testValidIndex_withMessage_charSequence" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankBlankStringWithNewlinesShouldThrow" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankMsgNotBlankStringWithWhitespacesShouldNotThrow" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankNotBlankStringShouldNotThrow" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testIsAssignable" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankMsgNotBlankStringShouldNotThrow" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testValidIndex_withMessage_array" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testValidIndex_withMessage_array" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsCollection1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsCollection2" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsCollection2" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testExclusiveBetween" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testInclusiveBetween" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankEmptyStringShouldThrow" time="0"/>
@@ -100,7 +100,7 @@
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyCollection2" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankMsgBlankStringWithWhitespacesShouldThrow" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyArray1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyArray2" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotEmptyArray2" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testValidIndex_collection" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testMatchesPattern_withMessage" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankNotBlankStringWithWhitespacesShouldNotThrow" time="0"/>
@@ -113,7 +113,7 @@
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testExclusiveBetween_withMessage" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNotBlankBlankStringWithWhitespacesShouldThrow" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testConstructor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testIsInstanceOf_withMessage" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testIsInstanceOf_withMessage" time="0"/>
   <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsArray1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsArray2" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ValidateTest" name="testNoNullElementsArray2" time="0.001"/>
 </testsuite>

@@ -65,7 +65,7 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testConstructorNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testToDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testToString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testConstructors" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testConstructors" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testCompareTo" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testIncrement" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testPrimitiveValues" time="0"/>
@@ -78,6 +78,6 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testDecrement" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testEquals" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testGetSet" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testSetNull" time="0"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testSetNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testAddValueObject" time="0"/>
 </testsuite>

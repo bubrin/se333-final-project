@@ -36,6 +36,25 @@ def extract_methods_from_java(java_file: str):
 # --------------------------
 # Test Generation & Improvement
 # --------------------------
+@mcp.tool
+def run_maven_tests(project_path: str):
+    """Run 'mvn test' in the given Maven project directory."""
+    project_path = os.path.abspath(project_path)
+    pom_file = os.path.join(project_path, "pom.xml")
+    if not os.path.exists(pom_file):
+        return {"status": "error", "message": "pom.xml not found in project path"}
+
+    maven_cmd = r"C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\bin\mvn.cmd"
+
+    result = subprocess.run(
+        [maven_cmd, "clean", "test", "-B"],
+        cwd=project_path,
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        return {"status": "error", "message": result.stderr}
+    return {"status": "success", "message": result.stdout}
 
 @mcp.tool
 def generate_tests(java_file: str) -> dict:
@@ -130,6 +149,137 @@ def parse_results(project_path: str) -> dict:
         results["warnings"].append("No JaCoCo XML found")
 
     return results
+# --------------------------
+# Specification-Based Test Generators
+# --------------------------
+
+@mcp.tool
+def generate_boundary_tests(java_file: str) -> dict:
+    """Generate JUnit tests for boundary value analysis."""
+    java_file = os.path.abspath(java_file)
+    if not os.path.exists(java_file):
+        return {"status": "error", "message": f"File not found: {java_file}"}
+    
+    project_root = find_project_root(java_file)
+    if not project_root:
+        return {"status": "error", "message": "Could not locate project root."}
+    
+    class_name = os.path.basename(java_file).replace(".java", "")
+    test_root = os.path.join(project_root, "src", "test", "java")
+    ensure_dir(test_root)
+    test_file = os.path.join(test_root, f"{class_name}BoundaryTest.java")
+
+    # Create a placeholder boundary test
+    content = f"""import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class {class_name}BoundaryTest {{
+    @Test
+    public void testBoundaryValues() {{
+        // TODO: Add boundary value test cases
+    }}
+}}
+"""
+    with open(test_file, "w") as f:
+        f.write(content)
+
+    return {"status": "success", "message": "Boundary tests generated", "test_file": test_file}
+
+
+@mcp.tool
+def generate_equivalence_class_tests(java_file: str) -> dict:
+    """Generate JUnit tests for equivalence class testing."""
+    java_file = os.path.abspath(java_file)
+    if not os.path.exists(java_file):
+        return {"status": "error", "message": f"File not found: {java_file}"}
+    
+    project_root = find_project_root(java_file)
+    if not project_root:
+        return {"status": "error", "message": "Could not locate project root."}
+    
+    class_name = os.path.basename(java_file).replace(".java", "")
+    test_root = os.path.join(project_root, "src", "test", "java")
+    ensure_dir(test_root)
+    test_file = os.path.join(test_root, f"{class_name}EquivalenceTest.java")
+
+    content = f"""import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class {class_name}EquivalenceTest {{
+    @Test
+    public void testEquivalenceClasses() {{
+        // TODO: Add equivalence class test cases
+    }}
+}}
+"""
+    with open(test_file, "w") as f:
+        f.write(content)
+
+    return {"status": "success", "message": "Equivalence class tests generated", "test_file": test_file}
+
+
+@mcp.tool
+def generate_decision_table_tests(java_file: str) -> dict:
+    """Generate JUnit tests for decision table testing."""
+    java_file = os.path.abspath(java_file)
+    if not os.path.exists(java_file):
+        return {"status": "error", "message": f"File not found: {java_file}"}
+    
+    project_root = find_project_root(java_file)
+    if not project_root:
+        return {"status": "error", "message": "Could not locate project root."}
+    
+    class_name = os.path.basename(java_file).replace(".java", "")
+    test_root = os.path.join(project_root, "src", "test", "java")
+    ensure_dir(test_root)
+    test_file = os.path.join(test_root, f"{class_name}DecisionTableTest.java")
+
+    content = f"""import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class {class_name}DecisionTableTest {{
+    @Test
+    public void testDecisionTables() {{
+        // TODO: Add decision table test cases
+    }}
+}}
+"""
+    with open(test_file, "w") as f:
+        f.write(content)
+
+    return {"status": "success", "message": "Decision table tests generated", "test_file": test_file}
+
+
+@mcp.tool
+def generate_contract_tests(java_file: str) -> dict:
+    """Generate JUnit tests for contract-based testing."""
+    java_file = os.path.abspath(java_file)
+    if not os.path.exists(java_file):
+        return {"status": "error", "message": f"File not found: {java_file}"}
+    
+    project_root = find_project_root(java_file)
+    if not project_root:
+        return {"status": "error", "message": "Could not locate project root."}
+    
+    class_name = os.path.basename(java_file).replace(".java", "")
+    test_root = os.path.join(project_root, "src", "test", "java")
+    ensure_dir(test_root)
+    test_file = os.path.join(test_root, f"{class_name}ContractTest.java")
+
+    content = f"""import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class {class_name}ContractTest {{
+    @Test
+    public void testContracts() {{
+        // TODO: Add preconditions, postconditions, invariants
+    }}
+}}
+"""
+    with open(test_file, "w") as f:
+        f.write(content)
+
+    return {"status": "success", "message": "Contract-based tests generated", "test_file": test_file}
 
 # --------------------------
 # Git Automation

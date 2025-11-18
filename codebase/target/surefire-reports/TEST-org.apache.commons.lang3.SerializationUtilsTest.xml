@@ -65,26 +65,26 @@
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testException" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytesBadStream" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStreamBadStream" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeBytesUnserializable" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeBytesUnserializable" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamNullNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamNullObj" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testClone" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testClone" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeBytesNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamObjNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeIOException" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytes" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testCloneNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testPrimitiveTypeClassSerialization" time="0.004"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testPrimitiveTypeClassSerialization" time="0.003"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStream" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStream" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testCloneUnserializable" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamUnserializable" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeClassCastException" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testCloneUnserializable" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamUnserializable" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeClassCastException" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStreamOfNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStreamClassNotFound" time="0.002"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytesOfNull" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytesOfNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeBytes" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytesNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testConstructor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStreamNull" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStreamNull" time="0.001"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="0" name="org.apache.commons.lang3.text.FormattableUtilsTest" time="0.019" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="org.apache.commons.lang3.text.FormattableUtilsTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -14,7 +14,6 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="FormattableUtilsTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -46,7 +45,7 @@
     <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=FormattableUtilsTest"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk21.0.8_9"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,16 +62,16 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testDefaultAppend" time="0.013"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testDefaultAppend" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithEllipsisExceedsPrecision" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithUnicodeCharacters" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithZeroPrecision" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharacter" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharAndEllipsis" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharAndEllipsis" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithLargeWidth" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithSpecialCharacters" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithSpecialCharacters" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithNullEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToString" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToString" time="0.004"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithExactWidth" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testIllegalEllipsis" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithVariousPadCharacters" time="0"/>
@@ -80,7 +79,7 @@
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithZeroWidth" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithMultipleOverloads" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithPrecisionEqualsLength" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithPrecisionEqualsLength" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithEllipsisValidation" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithComplexEllipsis" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testConstructor" time="0"/>
