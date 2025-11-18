@@ -1400,4 +1400,229 @@ public class NumberUtilsTest {
         assertTrue(Float.isNaN(NumberUtils.max(bF)));
     }
 
+    @Test
+    public void testtoInt() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoLong() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoFloat() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoDouble() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoByte() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoShort() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmin() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testmax() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
 }

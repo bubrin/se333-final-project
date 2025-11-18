@@ -1,0 +1,1706 @@
+{
+  "summary": {
+    "total_tests": 2366,
+    "total_failures": 45,
+    "total_errors": 38,
+    "total_skipped": 4,
+    "success_rate": 96.49
+  },
+  "by_package": {
+    "default": {
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3": {
+      "tests": 923,
+      "failures": 0,
+      "errors": 9,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.builder": {
+      "tests": 298,
+      "failures": 31,
+      "errors": 10,
+      "skipped": 4
+    },
+    "org.apache.commons.lang3.concurrent": {
+      "tests": 123,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.event": {
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.exception": {
+      "tests": 64,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.math": {
+      "tests": 110,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.mutable": {
+      "tests": 115,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.reflect": {
+      "tests": 76,
+      "failures": 2,
+      "errors": 7,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.text": {
+      "tests": 298,
+      "failures": 0,
+      "errors": 6,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.text.translate": {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.time": {
+      "tests": 242,
+      "failures": 12,
+      "errors": 5,
+      "skipped": 0
+    },
+    "org.apache.commons.lang3.tuple": {
+      "tests": 47,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "failed_tests": [
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "test_setUpToClass_valid",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {5=null} expected null, but was:<{5=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {5=null} expected null, but was:<{5=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionBoolean",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testObjectArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testObjectBuild",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testObjectCycle",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionHierarchy",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testSelfInstanceTwoVarsReflectionObjectCycle",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testAppendToStringUsingMultiLineStyle",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testShortArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testBooleanArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testFloatArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testInt",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testByteArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionArrayCycle",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionLongArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testBlank",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testFloat",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testShort",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionArrayArrayCycle",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testByte",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testChar",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testLong",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionFloatArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testLongArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "test_setUpToClass_invalid",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null, 5=null} expected null, but was:<{true=null, 5=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null, 5=null} expected null, but was:<{true=null, 5=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testBoolean",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionDoubleArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {true=null} expected null, but was:<{true=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {true=null} expected null, but was:<{true=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionInteger",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {5=null} expected null, but was:<{5=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {5=null} expected null, but was:<{5=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionCharacter",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {A=null} expected null, but was:<{A=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:<{A=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testDoubleArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {A=null} expected null, but was:<{A=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:<{A=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionFloatArrayArray",
+      "type": "java.lang.AssertionError",
+      "message": "Expected null, actual: {A=null} expected null, but was:<{A=null}>",
+      "detail": "java.lang.AssertionError: Expected null, actual: {A=null} expected null, but was:<{A=null}>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotNull(Assert.java:664)\n\tat org.junit.Assert.assertNull(Assert.java:646)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.validateNullToStringStyleRegistry(ToStringBuilderTest.java:609)\n\tat org.apache.commons.lang3.builder.ToStringBuilderTest.after(ToStringBuilderTest.java:46)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.FieldUtilsTest",
+      "test": "testGetAllFieldsList",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<5> but was:<7>",
+      "detail": "java.lang.AssertionError: expected:<5> but was:<7>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.reflect.FieldUtilsTest.testGetAllFieldsList(FieldUtilsTest.java:167)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.FieldUtilsTest",
+      "test": "testGetAllFields",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<5> but was:<7>",
+      "detail": "java.lang.AssertionError: expected:<5> but was:<7>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.reflect.FieldUtilsTest.testGetAllFields(FieldUtilsTest.java:147)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddSeconds",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddSeconds(DateUtilsTest.java:439)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetMinutes",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetMinutes(DateUtilsTest.java:565)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddHours",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddHours(DateUtilsTest.java:399)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddWeeks",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddWeeks(DateUtilsTest.java:359)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddYears",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddYears(DateUtilsTest.java:319)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetSeconds",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetSeconds(DateUtilsTest.java:587)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddMonths",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddMonths(DateUtilsTest.java:339)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetMonths",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetMonths(DateUtilsTest.java:499)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetDays",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetDays(DateUtilsTest.java:521)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testAddMilliseconds",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testAddMilliseconds(DateUtilsTest.java:459)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetHours",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetHours(DateUtilsTest.java:543)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testSetYears",
+      "type": "java.lang.AssertionError",
+      "message": "expected:<4> but was:<11>",
+      "detail": "java.lang.AssertionError: expected:<4> but was:<11>\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat org.junit.Assert.assertEquals(Assert.java:555)\n\tat org.junit.Assert.assertEquals(Assert.java:542)\n\tat org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testSetYears(DateUtilsTest.java:479)\n"
+    }
+  ],
+  "error_tests": [
+    {
+      "class": "org.apache.commons.lang3.builder.CompareToBuilderTest",
+      "test": "testReflectionHierarchyCompareExcludeFields",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.CompareToBuilderTest",
+      "test": "testReflectionHierarchyCompare",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.CompareToBuilderTest",
+      "test": "testReflectionHierarchyCompareTransients",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field private final byte[] java.lang.String.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest",
+      "test": "testIntegerWithTransients",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest",
+      "test": "testInteger",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "test_setUpToClass_valid",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionBoolean",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field private final boolean java.lang.Boolean.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field private final boolean java.lang.Boolean.value accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:31..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "test_setUpToClass_invalid",
+      "type": "java.lang.Exception",
+      "message": "Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.reflect.InaccessibleObjectException>",
+      "detail": "java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.reflect.InaccessibleObjectException>\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)\n\tat java.base/java.lang.reflect.Field.checkCanSetAcc..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionInteger",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field static final char[] java.lang.Integer.digits accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315..."
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "test": "testReflectionCharacter",
+      "type": "java.lang.reflect.InaccessibleObjectException",
+      "message": "Unable to make field static final int java.lang.Character.ERROR accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360",
+      "detail": "java.lang.reflect.InaccessibleObjectException: Unable to make field static final int java.lang.Character.ERROR accessible: module java.base does not \"opens java.lang\" to unnamed module @79be0360\n\tat java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)\n..."
+    },
+    {
+      "class": "org.apache.commons.lang3.CharEncodingTest",
+      "test": "testMustBeSupportedJava1_3_1",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.CharEncodingTest.testMustBeSupportedJava1_3_1(CharEncodingTest.java:50)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharEncodingTest",
+      "test": "testWorksOnJava1_1_8",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.CharEncodingTest.testWorksOnJava1_1_8(CharEncodingTest.java:85)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharEncodingTest",
+      "test": "testWorksOnJava1_2_2",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.CharEncodingTest.testWorksOnJava1_2_2(CharEncodingTest.java:100)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.ClassUtilsTest",
+      "test": "test_isAssignable",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.ClassUtilsTest.test_isAssignable(ClassUtilsTest.java:425)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.ClassUtilsTest",
+      "test": "test_isAssignable_Widening",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_Widening(ClassUtilsTest.java:502)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.ClassUtilsTest",
+      "test": "test_isAssignable_DefaultUnboxing_Widening",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_DefaultUnboxing_Widening(ClassUtilsTest.java:584)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.ClassUtilsTest",
+      "test": "test_isAssignable_ClassArray_ClassArray",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:470)\n\tat org.apache.commons.lang3.ClassUtilsTest.test_isAssignable_ClassArray_ClassArray(ClassUtilsTest.java:345)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.LocaleUtilsTest",
+      "test": "testToLocale_3Part",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.LocaleUtilsTest.testToLocale_3Part(LocaleUtilsTest.java:217)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.math.NumberUtilsTest",
+      "test": "TestLang747",
+      "type": "java.lang.NumberFormatException",
+      "message": "For input string: \"80000000\" under radix 16",
+      "detail": "java.lang.NumberFormatException: For input string: \"80000000\" under radix 16\n\tat java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)\n\tat java.base/java.lang.Integer.parseInt(Integer.java:662)\n\tat java.base/java.lang.Integer.decode(Integer.java:1460)\n\tat org.apache.commons.lang3.math.NumberUtils.createInteger(NumberUtils.java:684)\n\tat org.apache.commons.lang3.math.NumberUtils.createNumber(NumberUtils.java:474)\n\tat org.apache.commons.lang3.math.NumberUtilsTest.T..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.MethodUtilsTest",
+      "test": "testGetMatchingAccessibleMethod",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.MemberUtils.getObjectTransformationCost(MemberUtils.java:137)\n\tat org.apache.common..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testGetTypeArguments",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testIsInstance",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testIsAssignable",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testTypesSatisfyVariables",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testDetermineTypeVariableAssignments",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "test": "testGetRawType",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.ClassUtils.isAssignable(ClassUtils.java:586)\n\tat org.apache.commons.lang3.reflect.TypeUtils.isAssignable(TypeUtils.java:131)\n\tat org.apache.commons.lang3.reflect.Typ..."
+    },
+    {
+      "class": "org.apache.commons.lang3.SystemUtilsTest",
+      "test": "testJavaAwtHeadless",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.SystemUtilsTest.testJavaAwtHeadless(SystemUtilsTest.java:359)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testBuiltInDateTimeFormat",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat..."
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testOverriddenBuiltinFormat",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat..."
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testBuiltInChoiceFormat",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat..."
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testExtendedFormats",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.testExtendedFormat..."
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testExtendedAndBuiltInFormats",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.testExtendedAndBui..."
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "test": "testBuiltInNumberFormat",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.assertPatternsEqual(ExtendedMessageFormatTest.java:361)\n\tat org.apache.commons.lang3.text.ExtendedMessageFormatTest.checkBuiltInFormat..."
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testLANG799_DE_OK",
+      "type": "java.text.ParseException",
+      "message": "Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT",
+      "detail": "java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT\n\tat org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:390)\n\tat org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:290)\n\tat org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:267)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testLANG799_DE_OK(DateUtilsTest.java:1598)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testLANG799_EN_WITH_DE_LOCALE",
+      "type": "java.text.ParseException",
+      "message": "Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT",
+      "detail": "java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT\n\tat org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:390)\n\tat org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:290)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testLANG799_EN_WITH_DE_LOCALE(DateUtilsTest.java:1623)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testRound",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testRound(DateUtilsTest.java:848)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testCeil",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testCeil(DateUtilsTest.java:1427)\n"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "test": "testTruncateLang59",
+      "type": "java.lang.NullPointerException",
+      "message": "Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null",
+      "detail": "java.lang.NullPointerException: Cannot invoke \"org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)\" because \"org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM\" is null\n\tat org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)\n\tat org.apache.commons.lang3.time.DateUtilsTest.testTruncateLang59(DateUtilsTest.java:1137)\n"
+    }
+  ],
+  "test_classes": [
+    {
+      "class": "CompositeFormatBoundaryTest",
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.065,
+      "package": "default"
+    },
+    {
+      "class": "org.apache.commons.lang3.AnnotationUtilsTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.04,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.ArrayUtilsAddTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.01,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.ArrayUtilsRemoveMultipleTest",
+      "tests": 55,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.011,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.ArrayUtilsRemoveTest",
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.ArrayUtilsTest",
+      "tests": 146,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.041,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.BitFieldTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.002,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.BooleanUtilsTest",
+      "tests": 71,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.018,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.CompareToBuilderTest",
+      "tests": 48,
+      "failures": 0,
+      "errors": 3,
+      "skipped": 0,
+      "time": 0.061,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.DefaultToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.002,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.EqualsBuilderTest",
+      "tests": 47,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.029,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 2,
+      "skipped": 0,
+      "time": 0.012,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.HashCodeBuilderTest",
+      "tests": 42,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.012,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.MultiLineToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.NoFieldNamesToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ReflectionToStringBuilderConcurrencyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 3,
+      "time": 0.003,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ReflectionToStringBuilderExcludeTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.006,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ReflectionToStringBuilderMutateInspectConcurrencyTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ShortPrefixToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.SimpleToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.StandardToStringStyleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringBuilderTest",
+      "tests": 79,
+      "failures": 31,
+      "errors": 5,
+      "skipped": 0,
+      "time": 0.048,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringStyleConcurrencyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 1.825,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.builder.ToStringStyleTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.builder"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharEncodingTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 3,
+      "skipped": 0,
+      "time": 0.011,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharRangeTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.037,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharSequenceUtilsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharSetTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.012,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharSetUtilsTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.CharUtilsTest",
+      "tests": 23,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.003,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.ClassUtilsTest",
+      "tests": 51,
+      "failures": 0,
+      "errors": 4,
+      "skipped": 0,
+      "time": 0.038,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.AtomicInitializerTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.005,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.AtomicSafeInitializerTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.005,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.BackgroundInitializerTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.014,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.BasicThreadFactoryTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.041,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.CallableBackgroundInitializerTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.ConcurrentUtilsTest",
+      "tests": 40,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.008,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.ConstantInitializerTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.LazyInitializerTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.023,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.concurrent.TimedSemaphoreTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 1.197,
+      "package": "org.apache.commons.lang3.concurrent"
+    },
+    {
+      "class": "org.apache.commons.lang3.ConversionTest",
+      "tests": 42,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.006,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.EnumUtilsTest",
+      "tests": 34,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.005,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.event.EventListenerSupportTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.046,
+      "package": "org.apache.commons.lang3.event"
+    },
+    {
+      "class": "org.apache.commons.lang3.event.EventUtilsTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.013,
+      "package": "org.apache.commons.lang3.event"
+    },
+    {
+      "class": "org.apache.commons.lang3.exception.ContextedExceptionTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.017,
+      "package": "org.apache.commons.lang3.exception"
+    },
+    {
+      "class": "org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.006,
+      "package": "org.apache.commons.lang3.exception"
+    },
+    {
+      "class": "org.apache.commons.lang3.exception.DefaultExceptionContextTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.exception"
+    },
+    {
+      "class": "org.apache.commons.lang3.exception.ExceptionUtilsTest",
+      "tests": 28,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.014,
+      "package": "org.apache.commons.lang3.exception"
+    },
+    {
+      "class": "org.apache.commons.lang3.HashSetvBitSetTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.379,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.JavaVersionTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.LocaleUtilsTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0,
+      "time": 0.036,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.math.FractionTest",
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.058,
+      "package": "org.apache.commons.lang3.math"
+    },
+    {
+      "class": "org.apache.commons.lang3.math.IEEE754rUtilsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.math"
+    },
+    {
+      "class": "org.apache.commons.lang3.math.NumberUtilsTest",
+      "tests": 82,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0,
+      "time": 0.012,
+      "package": "org.apache.commons.lang3.math"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableBooleanTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.003,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableByteTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableDoubleTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableFloatTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableIntTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableLongTest",
+      "tests": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableObjectTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.mutable.MutableShortTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.mutable"
+    },
+    {
+      "class": "org.apache.commons.lang3.ObjectUtilsTest",
+      "tests": 36,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.02,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.RandomStringUtilsTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.009,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.RangeTest",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.016,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.ConstructorUtilsTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.007,
+      "package": "org.apache.commons.lang3.reflect"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.FieldUtilsTest",
+      "tests": 44,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.036,
+      "package": "org.apache.commons.lang3.reflect"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.MethodUtilsTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0,
+      "time": 0.023,
+      "package": "org.apache.commons.lang3.reflect"
+    },
+    {
+      "class": "org.apache.commons.lang3.reflect.TypeUtilsTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 6,
+      "skipped": 0,
+      "time": 0.035,
+      "package": "org.apache.commons.lang3.reflect"
+    },
+    {
+      "class": "org.apache.commons.lang3.SerializationUtilsTest",
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.008,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringEscapeUtilsTest",
+      "tests": 25,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.149,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest",
+      "tests": 49,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.004,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsIsTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.003,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsStartsEndsWithTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsSubstringTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsTest",
+      "tests": 99,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.028,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.StringUtilsTrimEmptyTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.013,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.SystemUtilsTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 1,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.CompositeFormatTest",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.002,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.ExtendedMessageFormatTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 6,
+      "skipped": 0,
+      "time": 0.102,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.FormattableUtilsTest",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.002,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrBuilderAppendInsertTest",
+      "tests": 51,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.009,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrBuilderTest",
+      "tests": 79,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.005,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrLookupTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.001,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrMatcherTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrSubstitutorTest",
+      "tests": 37,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.007,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.StrTokenizerTest",
+      "tests": 55,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.006,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.EntityArraysTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.LookupTranslatorTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.NumericEntityEscaperTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.OctalUnescaperTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.UnicodeEscaperTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.translate.UnicodeUnescaperTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text.translate"
+    },
+    {
+      "class": "org.apache.commons.lang3.text.WordUtilsTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.text"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateFormatUtilsTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.088,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsFragmentTest",
+      "tests": 52,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.005,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsRoundingTest",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.022,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DateUtilsTest",
+      "tests": 38,
+      "failures": 12,
+      "errors": 5,
+      "skipped": 0,
+      "time": 0.045,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.DurationFormatUtilsTest",
+      "tests": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.394,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.FastDateFormatTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.668,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.FastDateFormat_ParserTest",
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 24.141,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.FastDateFormat_PrinterTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.002,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.FastDateParserTest",
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 1.321,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.FastDatePrinterTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.time.StopWatchTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 4.826,
+      "package": "org.apache.commons.lang3.time"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.ImmutablePairTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.ImmutableTripleTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.MutablePairTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.MutableTripleTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.PairTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.tuple.TripleTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3.tuple"
+    },
+    {
+      "class": "org.apache.commons.lang3.ValidateTest",
+      "tests": 54,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "time": 0.0,
+      "package": "org.apache.commons.lang3"
+    }
+  ],
+  "coverage": {},
+  "warnings": [
+    "No JaCoCo XML found"
+  ]
+}
