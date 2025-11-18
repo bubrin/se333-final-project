@@ -1081,4 +1081,319 @@ public class ToStringBuilderTest {
         assertEquals(testBuilder.toString().indexOf("testInt=31337"), -1);
     }
 
+    @Test
+    public void testtoString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testgetDefaultStyle() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testreflectionToString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testreflectionToString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testreflectionToString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappend() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testappendAsObjectToString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testtoString() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testgetObject() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testgetStringBuffer() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testgetStyle() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testif() {
+        // Placeholder for auto-improvement
+    }
+
+    @Test
+    public void testbuild() {
+        // Placeholder for auto-improvement
+    }
+
 }
