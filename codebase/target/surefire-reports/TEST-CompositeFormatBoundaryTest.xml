@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="34" failures="0" name="CompositeFormatBoundaryTest" time="0.077" errors="0" skipped="0">
+<testsuite tests="34" failures="0" name="CompositeFormatBoundaryTest" time="0.074" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -14,7 +14,6 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="CompositeFormatBoundaryTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\sofid\Downloads\final_project_se333_SofiaBarrios\codebase"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -46,7 +45,7 @@
     <property name="java.class.path" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dtest=CompositeFormatBoundaryTest"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk21.0.8_9"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,38 +62,38 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CompositeFormatBoundaryTest" name="testSpecialCharacters" time="0.055"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testSpecialCharacters" time="0.054"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testNumberFormatMaximumValue" time="0"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionAtStringEnd" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testFieldPositionWithZeroField" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithEmptyStringBuffer" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionAtStringStart" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithNullFieldPosition" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testDateFormatBoundaryValues" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithNullObject" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithEmptyStringBuffer" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionAtStringStart" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithNullFieldPosition" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testDateFormatBoundaryValues" time="0.002"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithNullObject" time="0"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithNullStringBuffer" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testNumberFormatMinimumValue" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testConstructorWithNullFormatter" time="0"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionBeyondStringEnd" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testReformatValidBoundaryInput" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testParseObjectWithNullParsePosition" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testReformatWithEmptyString" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testParseObjectWithNullParsePosition" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testReformatWithEmptyString" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testParseObjectWithEmptyString" time="0"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testLeapYearBoundary" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testFormatWithPrePopulatedStringBuffer" time="0"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testFieldPositionWithNegativeField" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testGetFormatterNotNull" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testNumberFormatNegativeBoundary" time="0.003"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testGetFormatterNotNull" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testNumberFormatNegativeBoundary" time="0.002"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testVeryLongString" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testDateFormatMaximumYear" time="0.003"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testDateFormatMaximumYear" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testReformatWithInvalidInput" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testConstructorWithNullParser" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionNegative" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testReformatWithNullInput" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testFieldPositionWithLargeField" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testParsePositionNegative" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testReformatWithNullInput" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testFieldPositionWithLargeField" time="0.001"/>
   <testcase classname="CompositeFormatBoundaryTest" name="testConstructorWithBothNull" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testUnicodeCharacters" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testParseObjectWithNullSource" time="0.001"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testGetParserNotNull" time="0"/>
-  <testcase classname="CompositeFormatBoundaryTest" name="testSingleCharacterString" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testUnicodeCharacters" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testParseObjectWithNullSource" time="0"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testGetParserNotNull" time="0.001"/>
+  <testcase classname="CompositeFormatBoundaryTest" name="testSingleCharacterString" time="0"/>
 </testsuite>

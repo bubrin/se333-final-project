@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="0" name="org.apache.commons.lang3.text.FormattableUtilsTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="org.apache.commons.lang3.text.FormattableUtilsTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -69,9 +69,9 @@
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharacter" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAlternatePadCharAndEllipsis" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithLargeWidth" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithSpecialCharacters" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithSpecialCharacters" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithNullEllipsis" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToString" time="0.004"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testToString" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithExactWidth" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testIllegalEllipsis" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithVariousPadCharacters" time="0"/>
@@ -83,5 +83,5 @@
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithEllipsisValidation" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithComplexEllipsis" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testConstructor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithEmptyString" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.FormattableUtilsTest" name="testAppendWithEmptyString" time="0.001"/>
 </testsuite>

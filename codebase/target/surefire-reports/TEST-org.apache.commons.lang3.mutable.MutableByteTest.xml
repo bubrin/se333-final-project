@@ -66,7 +66,7 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testConstructors" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testCompareTo" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testIncrement" time="0"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testIncrement" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testPrimitiveValues" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSubtractValuePrimitive" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testCompareToNull" time="0"/>
@@ -74,7 +74,7 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testAddValuePrimitive" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSubtractValueObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testDecrement" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testEquals" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testGetSet" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testSetNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableByteTest" name="testToByte" time="0"/>

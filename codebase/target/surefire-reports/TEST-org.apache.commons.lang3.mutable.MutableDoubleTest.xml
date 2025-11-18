@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="org.apache.commons.lang3.mutable.MutableDoubleTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="org.apache.commons.lang3.mutable.MutableDoubleTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -78,6 +78,6 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testDecrement" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testEquals" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testGetSet" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testSetNull" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testSetNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableDoubleTest" name="testAddValueObject" time="0"/>
 </testsuite>

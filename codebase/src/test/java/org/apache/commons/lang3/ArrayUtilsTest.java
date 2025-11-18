@@ -3073,5 +3073,4 @@ public class ArrayUtilsTest  {
             fail("IllegalArgumentException should have been thrown");
         } catch (final IllegalArgumentException e) {}
     }
-
 }

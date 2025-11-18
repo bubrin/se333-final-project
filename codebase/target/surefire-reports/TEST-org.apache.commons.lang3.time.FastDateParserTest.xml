@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="29" failures="0" name="org.apache.commons.lang3.time.FastDateParserTest" time="1.361" errors="0" skipped="0">
+<testsuite tests="29" failures="0" name="org.apache.commons.lang3.time.FastDateParserTest" time="1.482" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.8+9-LTS"/>
@@ -70,25 +70,25 @@
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParseZone" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testAmPm" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLowYearPadding" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Long_AD" time="0.15"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Long_BC" time="0.174"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Long_AD" time="0.186"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Long_BC" time="0.149"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParseNumerics" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLang303" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLang303" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLang538" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testToStringContainsName" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLANG_831" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLANG_832" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="test_Equality_Hash" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_ShortNoEra_AD" time="0.132"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_ShortNoEra_BC" time="0.133"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParseLongShort" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_LongNoEra_AD" time="0.135"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_LongNoEra_BC" time="0.137"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="test_Equality_Hash" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_ShortNoEra_AD" time="0.201"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_ShortNoEra_BC" time="0.157"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParseLongShort" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_LongNoEra_AD" time="0.146"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_LongNoEra_BC" time="0.133"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Short_AD" time="0.129"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Short_BC" time="0.134"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testLocales_Short_BC" time="0.149"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testEquals" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParses" time="0.233"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testParses" time="0.232"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testQuotes" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testTimeZoneMatches" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testTimeZoneMatches" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateParserTest" name="testPatternMatches" time="0"/>
 </testsuite>

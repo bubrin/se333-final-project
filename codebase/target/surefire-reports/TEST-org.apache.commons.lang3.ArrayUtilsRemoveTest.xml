@@ -71,14 +71,14 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementFloatArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementIntArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveBooleanArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveByteArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementCharArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveNumberArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementByteArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveShortArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveShortArray" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementDoubleArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveIntArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveLongArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveLongArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsRemoveTest" name="testRemoveElementShortArray" time="0"/>
 </testsuite>

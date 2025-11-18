@@ -62,11 +62,11 @@
     <property name="java.vendor.version" value="Corretto-21.0.8.9.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testBadStates" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testBadStates" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testGetStartTime" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testLang315" time="0.411"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimpleGet" time="0.512"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimple" time="0.555"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSplit" time="1.674"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSuspend" time="1.671"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testLang315" time="0.407"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimpleGet" time="0.514"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimple" time="0.557"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSplit" time="1.672"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSuspend" time="1.672"/>
 </testsuite>
