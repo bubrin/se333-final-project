@@ -152,11 +152,13 @@ def parse_results(project_path: str) -> dict:
 
 @mcp.tool
 def git_status():
+    """Check git status."""
     result = subprocess.run(['git', 'status', '--short'], capture_output=True, text=True)
     return {"status": "success", "message": result.stdout} if result.returncode == 0 else {"status": "error", "message": "Git status failed"}
 
 @mcp.tool
 def git_add_all():
+    """Stage all changes except specified patterns."""
     exclude_patterns = ["*.log", "*.tmp", "build/", "dist/", "*.pyc"]
     result = subprocess.run(['git', 'status', '--short'], capture_output=True, text=True)
     if result.returncode != 0:
@@ -169,17 +171,20 @@ def git_add_all():
 
 @mcp.tool
 def git_commit(message: str):
+    """Commit staged changes with a message including coverage stats."""
     coverage_stats = "Coverage: 94%"  # Replace with actual metrics
     result = subprocess.run(['git', 'commit', '-m', f"{message}\n\n{coverage_stats}"], capture_output=True, text=True)
     return {"status": "success"} if result.returncode == 0 else {"status": "error"}
 
 @mcp.tool
 def git_push(remote="origin"):
+    """Push commits to remote repository."""
     result = subprocess.run(['git', 'push', remote], capture_output=True, text=True)
     return {"status": "success"} if result.returncode == 0 else {"status": "error", "message": result.stderr}
 
 @mcp.tool
 def git_pull_request(title: str, body: str, base="main"):
+    """Create a pull request on GitHub."""
     api_url = f"https://api.github.com/repos/yourusername/yourrepo/pulls"
     token = "your_github_token"
     headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.v3+json"}
