@@ -20,6 +20,7 @@ jobs:
 
       - name: Build Project
         run: mvn clean compile
+        working-directory: ./codebase
 
       - name: Run Checkstyle
         run: mvn checkstyle:check
